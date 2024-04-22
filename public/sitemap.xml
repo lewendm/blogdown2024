@@ -2,184 +2,184 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/collection/day02/01-netlify/</loc>
+    <loc>//localhost:4321/collection/day02/01-netlify/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/blog/spoonful-series/01-spoonful/</loc>
+    <loc>//localhost:4321/blog/spoonful-series/01-spoonful/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/collection/day01/01-github/</loc>
+    <loc>//localhost:4321/collection/day01/01-github/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/collection/prework/</loc>
+    <loc>//localhost:4321/collection/prework/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/collection/day01/</loc>
+    <loc>//localhost:4321/collection/day01/</loc>
     <lastmod>2021-01-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/collection/day01/02-postcards/</loc>
+    <loc>//localhost:4321/collection/day01/02-postcards/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/blog/spoonful-series/02-spoonful/</loc>
+    <loc>//localhost:4321/blog/spoonful-series/02-spoonful/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/collection/day02/02-blogdown/</loc>
+    <loc>//localhost:4321/collection/day02/02-blogdown/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/collection/day02/</loc>
+    <loc>//localhost:4321/collection/day02/</loc>
     <lastmod>2021-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/blog/spoonful-series/03-spoonful/</loc>
+    <loc>//localhost:4321/blog/spoonful-series/03-spoonful/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/collection/day01/03-distill/</loc>
+    <loc>//localhost:4321/collection/day01/03-distill/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/collection/day02/03-blogdown/</loc>
+    <loc>//localhost:4321/collection/day02/03-blogdown/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/</loc>
-    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/pubs/</loc>
-    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/hugo-site/</loc>
+    <loc>//localhost:4321/tags/hugo-site/</loc>
     <lastmod>2024-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/pubs/jbdm2024/</loc>
+    <loc>//localhost:4321/</loc>
     <lastmod>2024-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>//localhost:4321/pubs/</loc>
     <lastmod>2024-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/pubs/smiley/</loc>
+    <loc>//localhost:4321/pubs/jbdm2024/</loc>
+    <lastmod>2024-03-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:4321/tags/</loc>
+    <lastmod>2024-03-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:4321/pubs/qjep2024/</loc>
+    <lastmod>2024-03-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:4321/pubs/jesp2024/</loc>
+    <lastmod>2024-03-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:4321/pubs/smiley/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/pubs/paid2023/</loc>
+    <loc>//localhost:4321/pubs/paid2023/</loc>
     <lastmod>2023-08-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/pubs/selfclient/</loc>
-    <lastmod>2023-08-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/pubs/repheuristic/</loc>
-    <lastmod>2023-08-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/pubs/jmp2023/</loc>
+    <loc>//localhost:4321/pubs/jmp2023/</loc>
     <lastmod>2023-06-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/pubs/ce2023/</loc>
+    <loc>//localhost:4321/pubs/ce2023/</loc>
     <lastmod>2023-02-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/pubs/framing/</loc>
+    <loc>//localhost:4321/pubs/framing/</loc>
     <lastmod>2022-12-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/pubs/aom2022/</loc>
+    <loc>//localhost:4321/pubs/aom2022/</loc>
     <lastmod>2022-07-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/pubs/covid/</loc>
+    <loc>//localhost:4321/pubs/covid/</loc>
     <lastmod>2022-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/pubs/aom2021/</loc>
+    <loc>//localhost:4321/pubs/aom2021/</loc>
     <lastmod>2021-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/pubs/fearfromafar/</loc>
+    <loc>//localhost:4321/pubs/frontiers2021/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/blog/</loc>
+    <loc>//localhost:4321/blog/</loc>
     <lastmod>2021-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>//localhost:4321/categories/</loc>
     <lastmod>2021-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/blog/social/</loc>
+    <loc>//localhost:4321/blog/social/</loc>
     <lastmod>2021-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/theme-features/</loc>
+    <loc>//localhost:4321/categories/theme-features/</loc>
     <lastmod>2021-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/style/</loc>
+    <loc>//localhost:4321/tags/style/</loc>
     <lastmod>2021-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/blog/color-themes/</loc>
+    <loc>//localhost:4321/blog/color-themes/</loc>
     <lastmod>2021-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/blog/fonts/</loc>
+    <loc>//localhost:4321/blog/fonts/</loc>
     <lastmod>2021-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/collection/</loc>
+    <loc>//localhost:4321/collection/</loc>
     <lastmod>2021-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/blog/evergreen/</loc>
+    <loc>//localhost:4321/blog/evergreen/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/evergreen/</loc>
+    <loc>//localhost:4321/categories/evergreen/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/talk/campfire/</loc>
+    <loc>//localhost:4321/talk/campfire/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/talk/</loc>
+    <loc>//localhost:4321/talk/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/workshop/</loc>
+    <loc>//localhost:4321/categories/workshop/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/series/a-spoonful-of-hugo/</loc>
+    <loc>//localhost:4321/series/a-spoonful-of-hugo/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/blog/spoonful-series/</loc>
+    <loc>//localhost:4321/blog/spoonful-series/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/r/</loc>
+    <loc>//localhost:4321/categories/r/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/series/</loc>
+    <loc>//localhost:4321/series/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/blog/seedling/</loc>
+    <loc>//localhost:4321/blog/seedling/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/talk/second-seedling/</loc>
+    <loc>//localhost:4321/talk/second-seedling/</loc>
     <lastmod>2021-01-01T14:15:59-06:00</lastmod>
   </url><url>
-    <loc>/categories/meetup/</loc>
+    <loc>//localhost:4321/categories/meetup/</loc>
     <lastmod>2021-01-01T14:15:59-06:00</lastmod>
   </url><url>
-    <loc>/blog/rmarkdown/</loc>
+    <loc>//localhost:4321/blog/rmarkdown/</loc>
     <lastmod>2020-12-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/talk/seedling/</loc>
+    <loc>//localhost:4321/talk/seedling/</loc>
     <lastmod>2020-01-13T14:15:59-06:00</lastmod>
   </url><url>
-    <loc>/blog/css-grid-scaffold/</loc>
+    <loc>//localhost:4321/blog/css-grid-scaffold/</loc>
     <lastmod>2019-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/pubs/sp2019/</loc>
+    <loc>//localhost:4321/pubs/sp2019/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/blog/built-in-contact-form/</loc>
+    <loc>//localhost:4321/blog/built-in-contact-form/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/contact/</loc>
+    <loc>//localhost:4321/contact/</loc>
     <lastmod>2019-02-25T13:38:41-06:00</lastmod>
   </url><url>
-    <loc>/form/</loc>
+    <loc>//localhost:4321/form/</loc>
     <lastmod>2019-02-25T13:38:41-06:00</lastmod>
   </url><url>
-    <loc>/elements/</loc>
+    <loc>//localhost:4321/elements/</loc>
     <lastmod>2019-02-18T12:27:33-06:00</lastmod>
   </url><url>
-    <loc>/about/header/</loc>
+    <loc>//localhost:4321/about/header/</loc>
   </url><url>
-    <loc>/about/sidebar/</loc>
+    <loc>//localhost:4321/about/sidebar/</loc>
   </url><url>
-    <loc>/about/</loc>
+    <loc>//localhost:4321/about/</loc>
   </url><url>
-    <loc>/contributors/</loc>
+    <loc>//localhost:4321/contributors/</loc>
   </url><url>
-    <loc>/license/</loc>
+    <loc>//localhost:4321/license/</loc>
   </url><url>
-    <loc>/about/main/</loc>
+    <loc>//localhost:4321/about/main/</loc>
   </url>
 </urlset>

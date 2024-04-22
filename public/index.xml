@@ -2,297 +2,283 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lewend Mayiwar on Hugo Apéro</title>
-    <link>/</link>
+    <link>//localhost:4321/</link>
     <description>Recent content in Lewend Mayiwar on Hugo Apéro</description>
     <generator>Hugo 0.125.1</generator>
     <language>en</language>
     <lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:4321/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Netlify</title>
-      <link>/collection/day02/01-netlify/</link>
+      <link>//localhost:4321/collection/day02/01-netlify/</link>
       <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/collection/day02/01-netlify/</guid>
+      <guid>//localhost:4321/collection/day02/01-netlify/</guid>
       <description>So far, we&amp;rsquo;ve been leveraging GitHub Pages for publishing. This works great, but for blogdown we&amp;rsquo;ll start using Netlify. Let&amp;rsquo;s start RIGHT NOW with a site we&amp;rsquo;ve already built and published.&#xA;Pre-requisites Pick either your postcards site, or your distill site from day 01. Refresh your memory- which repository was it again?</description>
     </item>
     <item>
       <title>A first post</title>
-      <link>/blog/spoonful-series/01-spoonful/</link>
+      <link>//localhost:4321/blog/spoonful-series/01-spoonful/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/blog/spoonful-series/01-spoonful/</guid>
+      <guid>//localhost:4321/blog/spoonful-series/01-spoonful/</guid>
       <description> Hi, I&#39;m the here-bot cat! Use me to find your way in your website.&#xA;Here I am: content/blog/spoonful-series/01-spoonful.md To remove me, delete this line inside that file: {{&amp;lt; here &amp;gt;}}&#xA;My content section is: blog My layout is: single-series does this work? or this? Let&amp;rsquo;s start.&#xA;beginning middle end </description>
     </item>
     <item>
       <title>A GitHub profile</title>
-      <link>/collection/day01/01-github/</link>
+      <link>//localhost:4321/collection/day01/01-github/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/collection/day01/01-github/</guid>
+      <guid>//localhost:4321/collection/day01/01-github/</guid>
       <description>Profile https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/personalizing-your-profile&#xA;Pin projects to profile https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/pinning-items-to-your-profile&#xA;Profile README This is new! Let&amp;rsquo;s do it:&#xA;https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme</description>
     </item>
     <item>
       <title>Prework</title>
-      <link>/collection/prework/</link>
+      <link>//localhost:4321/collection/prework/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/collection/prework/</guid>
+      <guid>//localhost:4321/collection/prework/</guid>
       <description>Welcome to the Introducing Yourself Online workshop! We look forward to meeting you. Before attending the workshop, please complete the following prework.&#xA;Set up RStudio Cloud Sign up for a free RStudio Cloud account at https://rstudio.cloud/ before the workshop. I recommend logging in with an existing Google or GitHub account, if you have one (rather than creating a new account with another password you have to remember). I want you to be able to work from your own laptop in this workshop, but Cloud is an important back-up plan should you run into troubles.</description>
     </item>
     <item>
       <title>A postcard</title>
-      <link>/collection/day01/02-postcards/</link>
+      <link>//localhost:4321/collection/day01/02-postcards/</link>
       <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/collection/day01/02-postcards/</guid>
+      <guid>//localhost:4321/collection/day01/02-postcards/</guid>
       <description>Pre-requisites First, make sure you have the latest version of the postcards package installed from CRAN:&#xA;install.packages(&amp;#34;postcards&amp;#34;) Restart your R session. If you use RStudio, use the menu item Session &amp;gt; Restart R or the associated keyboard shortcut:&#xA;Ctrl + Shift + F10 (Windows and Linux) or Command + Shift + F10 (Mac OS). packageVersion(&amp;#34;postcards&amp;#34;) [1] ‘0.2.0’ Create GitHub repo Online.&#xA;Clone GitHub repo usethis::create_from_github(&amp;#34;https://github.com/apreshill/global-postcard.git&amp;#34;) &amp;#x2728; Commit &amp;amp; Push! &amp;#x2728;</description>
     </item>
     <item>
       <title>A second post</title>
-      <link>/blog/spoonful-series/02-spoonful/</link>
+      <link>//localhost:4321/blog/spoonful-series/02-spoonful/</link>
       <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/blog/spoonful-series/02-spoonful/</guid>
+      <guid>//localhost:4321/blog/spoonful-series/02-spoonful/</guid>
       <description> Hi, I&#39;m the here-bot cat! Use me to find your way in your website.&#xA;Here I am: content/blog/spoonful-series/02-spoonful/index.md To remove me, delete this line inside that file: {{&amp;lt; here &amp;gt;}}&#xA;My content section is: blog My layout is: single-series Images in this page bundle: /blog/spoonful-series/02-spoonful/sidebar-inverse.jpg part 2! does this work? now for some very cool things more get ready! </description>
     </item>
     <item>
       <title>Using blogdown</title>
-      <link>/collection/day02/02-blogdown/</link>
+      <link>//localhost:4321/collection/day02/02-blogdown/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/collection/day02/02-blogdown/</guid>
+      <guid>//localhost:4321/collection/day02/02-blogdown/</guid>
       <description>Pre-requisites First, make sure you have the latest version of the blogdown package installed from CRAN:&#xA;install.packages(&amp;#34;blogdoown&amp;#34;) Restart your R session. If you use RStudio, use the menu item Session &amp;gt; Restart R or the associated keyboard shortcut:&#xA;Ctrl + Shift + F10 (Windows and Linux) or Command + Shift + F10 (Mac OS). packageVersion(&amp;#34;blogdown&amp;#34;) [1] ‘1.0’ Create GitHub repo Online.&#xA;Clone GitHub repo usethis::create_from_github(&amp;#34;https://github.com/apreshill/global-blogdown.git&amp;#34;) &amp;#x2728; Commit &amp;amp; Push! &amp;#x2728;</description>
     </item>
     <item>
       <title>A third post</title>
-      <link>/blog/spoonful-series/03-spoonful/</link>
+      <link>//localhost:4321/blog/spoonful-series/03-spoonful/</link>
       <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/blog/spoonful-series/03-spoonful/</guid>
+      <guid>//localhost:4321/blog/spoonful-series/03-spoonful/</guid>
       <description>Hi, I&#39;m the here-bot cat! Use me to find your way in your website.&#xA;Here I am: content/blog/spoonful-series/03-spoonful/index.markdown Here is my R Markdown source file: blog/spoonful-series/03-spoonful/index.Rmarkdown You&#39;ll want to edit this file, then re-knit to see the changes take effect in your site preview.&#xA;To remove me, delete this line inside that file: {{&amp;lt; here &amp;gt;}}&#xA;My content section is: blog My layout is: single-series Images in this page bundle: /blog/spoonful-series/03-spoonful/featured-photo.</description>
     </item>
     <item>
       <title>A distill site</title>
-      <link>/collection/day01/03-distill/</link>
+      <link>//localhost:4321/collection/day01/03-distill/</link>
       <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/collection/day01/03-distill/</guid>
+      <guid>//localhost:4321/collection/day01/03-distill/</guid>
       <description>Pre-requisites First, make sure you have the latest version of the distill package installed from CRAN:&#xA;install.packages(&amp;quot;distill&amp;quot;) Restart your R session. If you use RStudio, use the menu item Session &amp;gt; Restart R or the associated keyboard shortcut:&#xA;Ctrl + Shift + F10 (Windows and Linux) or Command + Shift + F10 (Mac OS). packageVersion(&amp;#34;distill&amp;#34;) # [1] ‘1.2’ Create GitHub repo Online.&#xA;Clone GitHub repo usethis::create_from_github(&amp;quot;https://github.com/apreshill/global-distill.git&amp;quot;) &amp;#x2728; Commit &amp;amp; Push!</description>
     </item>
     <item>
       <title>Warm woolen mittens</title>
-      <link>/collection/day02/03-blogdown/</link>
+      <link>//localhost:4321/collection/day02/03-blogdown/</link>
       <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/collection/day02/03-blogdown/</guid>
+      <guid>//localhost:4321/collection/day02/03-blogdown/</guid>
       <description> Hi, I&#39;m the here-bot cat! Use me to find your way in your website.&#xA;Here I am: content/collection/day02/03-blogdown/index.md To remove me, delete this line inside that file: {{&amp;lt; here &amp;gt;}}&#xA;My content section is: collection My layout is: single-series part 2! does this work? now for some very cool things more get ready! </description>
     </item>
     <item>
       <title>Self-Distancing Regulates the Effect of Incidental Anger (vs. Fear) on Affective Decision-Making Under Uncertainty</title>
-      <link>/pubs/jbdm2024/</link>
+      <link>//localhost:4321/pubs/jbdm2024/</link>
       <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>/pubs/jbdm2024/</guid>
+      <guid>//localhost:4321/pubs/jbdm2024/</guid>
       <description>Abstract Emotions integral to a task are often adaptive, particularly in situations where outcomes and probabilities are not known. However, decisions are also influenced by emotions that arise from situations unrelated to the task. This is especially the case with negative emotions like fear and anger, which also tend to be accompanied by ruminative thinking that might divert decision-makers&amp;rsquo; attention from the task at hand. In two preregistered experiments, we show how self-distancing regulates the influence of incidental anger (vs.</description>
     </item>
     <item>
+      <title>Revisiting representativeness classic paradigms: Replication and extensions of the problems reviewed in Kahneman and Tversky (1972)</title>
+      <link>//localhost:4321/pubs/qjep2024/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/pubs/qjep2024/</guid>
+      <description>Abstract Kahneman and Tversky (1972) showed that when people make probability judgments, they tend to ignore relevant statistical information (e.g., sample size) and instead rely on a representativeness heuristic, whereby subjective probabilities are influenced by the degree to which a target is perceived as similar to (representative of) a typical example of the relevant population, class or category. Their paper has become a cornerstone in many lines of research and has been used to account for various biases in judgment and decision-making.</description>
+    </item>
+    <item>
+      <title>Uncertainty, expertise, and persuasion: A replication and extension of Karmarkar and Tormala (2010)</title>
+      <link>//localhost:4321/pubs/jesp2024/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/pubs/jesp2024/</guid>
+      <description>Abstract If you are trying to persuade someone, expressing your opinion with certainty intuitively seems like a good strategy to maximize your influence. However, Karmarkar and Tormala (2010) found that the effectiveness of this tactic depends on expertise. In three experiments, Karmarkar and Tormala found support for an incongruity hypothesis, whereby non-expert sources can gain interest and influence by expressing certainty, while expert sources can increase persuasion by expressing uncertainty.</description>
+    </item>
+    <item>
       <title>The Dark Versus Bright Side of a Smiley: A Preregistered Replication of Experiment 3 in Glikson et al. (2018)</title>
-      <link>/pubs/smiley/</link>
+      <link>//localhost:4321/pubs/smiley/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>/pubs/smiley/</guid>
+      <guid>//localhost:4321/pubs/smiley/</guid>
       <description>Abstract The present paper reports an independent and better powered replication of Experiment 3 in Glikson et al. (2018). The authors of the original study reported support for their proposition that due to perceptions of (in)appropriateness, the use of smileys may backfire and produce less favorable perceptions of competence in a formal work-related setting, yet more favorable perceptions of warmth in an informal work-related setting. Our results, in contrast, indicated that smileys produce a negative effect on perceptions of competence and a positive effect on perceptions of warmth, regardless of the level of formality.</description>
     </item>
     <item>
       <title>Individual Differences in Fear and Self-Distancing Predict Information Processing via Problem Construal</title>
-      <link>/pubs/paid2023/</link>
-      <pubDate>Thu, 31 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>/pubs/paid2023/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Financial Advisors Rely Less on Intuition and Are More Risk-Averse When Deciding for Their Clients</title>
-      <link>/pubs/selfclient/</link>
+      <link>//localhost:4321/pubs/paid2023/</link>
       <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>/pubs/selfclient/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Revisiting representativeness classic paradigms: Replication and extensions of the problems reviewed in Kahneman and Tversky (1972)</title>
-      <link>/pubs/repheuristic/</link>
-      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>/pubs/repheuristic/</guid>
-      <description></description>
+      <guid>//localhost:4321/pubs/paid2023/</guid>
+      <description>Abstract In two preregistered online studies (NTotal = 984; Prolific), we examined how individual differences in fear and self-distancing predict information processing in decision-making involving risk in a business scenario. Dispositional fear was positively related to urgent and affective intuitive processing and negatively related to analytical processing. Self-distancing was positively related to analytical processing. These relations occurred indirectly via problem construal. Dispositional fear predicted less concrete problem construal, which in turn predicted more urgent intuitive processing and less analytical processing.</description>
     </item>
     <item>
       <title>Open-office noise and information processing</title>
-      <link>/pubs/jmp2023/</link>
+      <link>//localhost:4321/pubs/jmp2023/</link>
       <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>/pubs/jmp2023/</guid>
-      <description></description>
+      <guid>//localhost:4321/pubs/jmp2023/</guid>
+      <description>Abstract We draw on arousal-based models to develop and test a model of open-office noise and information processing. Specifically, we examined whether open-office noise changes how people process information and whether such a change has consequences for task performance. In a laboratory experiment, we randomly assigned participants (107 students at a business school) to either a silent condition or a condition that exposed them to open-office noise (irrelevant speech) while completing a task that requires cognitive flexibility.</description>
     </item>
     <item>
       <title>Fear and anxiety differ in construal level and scope</title>
-      <link>/pubs/ce2023/</link>
+      <link>//localhost:4321/pubs/ce2023/</link>
       <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>/pubs/ce2023/</guid>
+      <guid>//localhost:4321/pubs/ce2023/</guid>
       <description>Abstract The fear-anxiety distinction has been extensively discussed and debated among emotion researchers. In this study, we tested this distinction from a social-cognitive perspective. Drawing on construal level theory and regulatory scope theory, we examined whether fear and anxiety differ in their underlying level of construal and scope. Results from a preregistered autobiographical recall study (N = 200) that concerned either a fear situation or an anxiety situation and a large dataset from Twitter (N = 104,949) indicated that anxiety was associated with a higher level of construal and a more expansive scope than fear.</description>
     </item>
     <item>
       <title>Speakers’ Choice of Frame Reveals Little about Their Trait Emotions but More about Their Preferences and Risk Perception</title>
-      <link>/pubs/framing/</link>
+      <link>//localhost:4321/pubs/framing/</link>
       <pubDate>Wed, 28 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>/pubs/framing/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Self-Distancing Moderates the Effect of Incidental Fear vs. Anger on Risk Taking and Loss Aversion</title>
-      <link>/pubs/aom2022/</link>
-      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>/pubs/aom2022/</guid>
+      <guid>//localhost:4321/pubs/framing/</guid>
       <description></description>
     </item>
     <item>
       <title>National identity predicts public health support during a global pandemic</title>
-      <link>/pubs/covid/</link>
+      <link>//localhost:4321/pubs/covid/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>/pubs/covid/</guid>
+      <guid>//localhost:4321/pubs/covid/</guid>
       <description>Changing collective behaviour and supporting non-pharmaceutical interventions is an important component in mitigating virus transmission during a pandemic. In a large international collaboration (Study 1, N = 49,968 across 67 countries), we investigated selfreported factors associated with public health behaviours (e.g., spatial distancing and stricter hygiene) and endorsed public policy interventions (e.g., closing bars and restaurants) during the early stage of the COVID-19 pandemic (April-May 2020). Respondents who reported identifying more strongly with their nation consistently reported greater engagement in public health behaviours and support for public health policies. Results were similar for representative and non-representative national samples. Study 2 (N = 42 countries) conceptually replicated the central finding using aggregate indices of national identity (obtained using the World Values Survey) and a measure of actual behaviour change during the pandemic (obtained from Google mobility reports). Higher levels of national identification prior to the pandemic predicted lower mobility during the early stage of the pandemic (r = −0.40). We discuss the potential implications of links between national identity, leadership, and public health for managing COVID-19 and future pandemics.</description>
     </item>
     <item>
-      <title>Arousal and Risk Taking: The Moderating Role of Reappraisal</title>
-      <link>/pubs/aom2021/</link>
-      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>/pubs/aom2021/</guid>
-      <description>Researchers have provided important insight into the cognitive and emotional aspects of risk taking. In the present study we investigated how incidental physiological arousal — an affective component that has received relatively little attention — influences risk taking and cognitive processing. Moreover, to gain further insight into the relation between arousal and risky decision making, we examined the moderating role of the reappraisal strategy of emotion regulation. We found that incidental physiological arousal and intuitive processing predicted a higher likelihood of risk taking, whereas analytical processing predicted a lower likelihood of risk taking. Furthermore, we found that the relationship between physiological arousal and risk taking was stronger among individuals low on habitual cognitive reappraisal. Overall, the present study contributes to dual process theories of decision making and a growing line of research on emotion regulation and risk taking. Implications and directions for future research are discussed.</description>
-    </item>
-    <item>
       <title>Fear from Afar, Not So Risky After All. Distancing Moderates the Relationship Between Fear and Risk Taking</title>
-      <link>/pubs/fearfromafar/</link>
+      <link>//localhost:4321/pubs/frontiers2021/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>/pubs/fearfromafar/</guid>
+      <guid>//localhost:4321/pubs/frontiers2021/</guid>
       <description></description>
     </item>
     <item>
       <title>Set up your social</title>
-      <link>/blog/social/</link>
+      <link>//localhost:4321/blog/social/</link>
       <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/blog/social/</guid>
+      <guid>//localhost:4321/blog/social/</guid>
       <description>There are five places where you can choose to show social icons. Here is the tl;dr:&#xA;site header (set in config.toml), site footer (set in config.toml), homepage (set in content/_index.md), about page in the sidebar (set in content/about/sidebar/index.md), and contact page (set in content/form/contact.md). Read on to learn how to set up your social icons, and how to show/hide them.&#xA;Configure social Wherever you end up wanting to show your social icons, you&amp;rsquo;ll need to start by setting up the links in your site config.</description>
     </item>
     <item>
       <title>Style your site colors</title>
-      <link>/blog/color-themes/</link>
+      <link>//localhost:4321/blog/color-themes/</link>
       <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/blog/color-themes/</guid>
+      <guid>//localhost:4321/blog/color-themes/</guid>
       <description>You can totally customize your site&amp;rsquo;s theme colors within minutes of creating a new site. Read on to find out how, and decide which of the three options meets your needs.&#xA;Use a color theme Hugo Apéro includes 8 built-in color themes that work &amp;ldquo;out of the box.&amp;rdquo; This means you can use a color theme to quickly customize the look of your site without needing to write any CSS. You can select the color theme in your config.</description>
     </item>
     <item>
       <title>Style your site typography</title>
-      <link>/blog/fonts/</link>
+      <link>//localhost:4321/blog/fonts/</link>
       <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/blog/fonts/</guid>
+      <guid>//localhost:4321/blog/fonts/</guid>
       <description>As with color themes, you can completely customize your site&amp;rsquo;s fonts within minutes of creating a new site. How you do it depends on how much control and customization you need.&#xA;Embedded fonts Hugo Apéro includes 6 embedded fonts that work &amp;ldquo;out of the box.&amp;rdquo; We selected 3 serif and 3 sans-serif options that we thought looked good with this theme, in our humble opinions. All embedded fonts include real italics so you may emphasize to your heart&amp;rsquo;s content &amp;#x2764;&amp;#xfe0f;!</description>
     </item>
     <item>
       <title>An evergreen post</title>
-      <link>/blog/evergreen/</link>
+      <link>//localhost:4321/blog/evergreen/</link>
       <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/blog/evergreen/</guid>
+      <guid>//localhost:4321/blog/evergreen/</guid>
       <description>Rendering mathematical equations Examples from the mathjax demo. But they work with katex as well.&#xA;Rmarkdown In .Rmarkdown documents, you can use either&#xA;$a \ne 0$ to get inline math: \(a \ne 0\). There is no conflict with using dollar symbols regularly, because knitr automatically escapes freestanding dollar symbols.&#xA;And you can use&#xA;$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$ to get a math paragraph:&#xA;$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.</description>
     </item>
     <item>
       <title>A campfire</title>
-      <link>/talk/campfire/</link>
+      <link>//localhost:4321/talk/campfire/</link>
       <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/talk/campfire/</guid>
+      <guid>//localhost:4321/talk/campfire/</guid>
       <description>I&amp;rsquo;m really excited to give this talk! Stay tuned for video and slides.</description>
     </item>
     <item>
       <title>Using panelsets</title>
-      <link>/blog/seedling/</link>
+      <link>//localhost:4321/blog/seedling/</link>
       <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/blog/seedling/</guid>
+      <guid>//localhost:4321/blog/seedling/</guid>
       <description>Courtesy of panelset.js by Garrick Aden-Buie, from his xaringanExtra package: https://pkg.garrickadenbuie.com/xaringanExtra/#/panelset&#xA;For example, this panelset:&#xA;Hello! &amp;#x1f44b; hello&#xA;Goodbye &amp;#x1f4a8; goodbye&#xA;Was created by combining this theme&amp;rsquo;s panelset and panel shortcodes:&#xA;{{&amp;lt; panelset class=&amp;#34;greetings&amp;#34; &amp;gt;}} {{&amp;lt; panel name=&amp;#34;Hello! :wave:&amp;#34; &amp;gt;}} hello {{&amp;lt; /panel &amp;gt;}} {{&amp;lt; panel name=&amp;#34;Goodbye :dash:&amp;#34; &amp;gt;}} goodbye {{&amp;lt; /panel &amp;gt;}} {{&amp;lt; /panelset &amp;gt;}} You could also revert to HTML as well. For example, this panelset:&#xA;Question Which came first: the :chicken: or the :egg:?</description>
     </item>
     <item>
       <title>A seedling</title>
-      <link>/talk/second-seedling/</link>
+      <link>//localhost:4321/talk/second-seedling/</link>
       <pubDate>Fri, 01 Jan 2021 14:15:59 -0600</pubDate>
-      <guid>/talk/second-seedling/</guid>
+      <guid>//localhost:4321/talk/second-seedling/</guid>
       <description></description>
     </item>
     <item>
       <title>An Rmarkdown post</title>
-      <link>/blog/rmarkdown/</link>
+      <link>//localhost:4321/blog/rmarkdown/</link>
       <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/blog/rmarkdown/</guid>
+      <guid>//localhost:4321/blog/rmarkdown/</guid>
       <description> Air quality with(airquality, boxplot(Temp ~ Month)) with(airquality, plot(Ozone ~ Temp)) mlev &amp;lt;- levels(with(airquality, as.factor(Month))) with(airquality, plot(Ozone ~ Temp, pch = as.numeric(mlev), col = mlev)) </description>
     </item>
     <item>
       <title>A seedling</title>
-      <link>/talk/seedling/</link>
+      <link>//localhost:4321/talk/seedling/</link>
       <pubDate>Mon, 13 Jan 2020 14:15:59 -0600</pubDate>
-      <guid>/talk/seedling/</guid>
+      <guid>//localhost:4321/talk/seedling/</guid>
       <description></description>
     </item>
     <item>
       <title>CSS Grid Scaffold</title>
-      <link>/blog/css-grid-scaffold/</link>
+      <link>//localhost:4321/blog/css-grid-scaffold/</link>
       <pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/blog/css-grid-scaffold/</guid>
+      <guid>//localhost:4321/blog/css-grid-scaffold/</guid>
       <description>“Grid is the very first CSS module created specifically to solve the layout problems we&amp;rsquo;ve all been hacking our way around for as long as we&amp;rsquo;ve been making websites.” — Chris House, A Complete Guide to CSS Grid Layout 1&#xA;Overview Since I began building websites in Y2K, I&amp;rsquo;ve lost count how many times the phrase &amp;ldquo;&amp;hellip;there&amp;rsquo;s got to be a better way to do this&amp;rdquo; has passed my lips.</description>
     </item>
     <item>
       <title>A Replication of Study 1 in Differentiating Social and Personal Power by Lammers, Stoker, and Stapel (2009)</title>
-      <link>/pubs/sp2019/</link>
+      <link>//localhost:4321/pubs/sp2019/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/pubs/sp2019/</guid>
+      <guid>//localhost:4321/pubs/sp2019/</guid>
       <description>Abstract We performed an independent, direct, and better powered (N = 295) replication of Study 1, an experiment (N = 113) by Lammers, Stoker, and Stapel (2009). Lammers and colleagues distinguished between social power (influence over others) and personal power (freedom from the influence of others), and found support for their predictions that the two forms of power produce opposite effects on stereotyping, but parallel effects on behavioral approach. Our results did not replicate the effects on behavioral approach, but partially replicated the effects on stereotyping.</description>
     </item>
     <item>
       <title>Built-in Contact Form</title>
-      <link>/blog/built-in-contact-form/</link>
+      <link>//localhost:4321/blog/built-in-contact-form/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/blog/built-in-contact-form/</guid>
+      <guid>//localhost:4321/blog/built-in-contact-form/</guid>
       <description>Formspree makes it easy to receive submissions from HTML forms on your static website. Functional Form This theme has a form-to-email feature built in, thanks to the simple Formspree integration. All you need to activate the form is a valid recipient email address saved in the front matter of the form (/content/forms/contact.md). Of course, the example shown below (your@email.here) must not be used. Please use your actual email address.</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>/contact/</link>
+      <link>//localhost:4321/contact/</link>
       <pubDate>Mon, 25 Feb 2019 13:38:41 -0600</pubDate>
-      <guid>/contact/</guid>
+      <guid>//localhost:4321/contact/</guid>
       <description>** Contact page don&amp;rsquo;t contain a body, just the front matter above. See form.html in the layouts folder.&#xA;Formspree requires a (free) account and new form to be set up. The link is made on the final published url in the field: Restrict to Domain. It is possible to register up to 2 emails free and you can select which one you want the forms to go to within Formspree in the Settings tab.</description>
     </item>
     <item>
       <title>Typography Styles &amp; Element Examples</title>
-      <link>/elements/</link>
+      <link>//localhost:4321/elements/</link>
       <pubDate>Mon, 18 Feb 2019 12:27:33 -0600</pubDate>
-      <guid>/elements/</guid>
+      <guid>//localhost:4321/elements/</guid>
       <description>Font Sizes A A A A A A A A 6rem&#xA;(96px) 5rem&#xA;(80px) 3rem&#xA;(48px) 2.25rem&#xA;(36px) 1.5rem&#xA;(24px) 1.25rem&#xA;(20px) 1rem&#xA;(16px) .875rem&#xA;(14px) Type Samples Head&amp;shy;line Sub&amp;shy;head&amp;shy;line Level 1 Heading One page to rule them all...well, not really. This page displays sample typography and page elements to illustrate their style. Things like headings and paragraphs showing the beautiful type scale, form elements, tabular data, and image layouts just to name a few.</description>
     </item>
     <item>
       <title></title>
-      <link>/about/header/</link>
+      <link>//localhost:4321/about/header/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/about/header/</guid>
+      <guid>//localhost:4321/about/header/</guid>
       <description>I&amp;rsquo;m currently a Post-Doctoral Fellow in Behavioral Economics at JEDI lab at Linköping University in Sweden &amp;#x1f1f8;&amp;#x1f1ea; and an Associate Professor in Organizational Behavior at Oslo Business School (OsloMet) in Oslo, Norway &amp;#x1f1f3;&amp;#x1f1f4;.&#xA;I completed my PhD in Leadership and Organisation at BI Norwegian Business School´s Department of Leadership and Organizational Behavior (2023, supervised by Professor Thorvald Hærem and Associate Professor Erik Løhre). My dissertation examined the role of emotions and psychological distance in decision-making under risk and uncertainty.</description>
     </item>
     <item>
       <title></title>
-      <link>/about/sidebar/</link>
+      <link>//localhost:4321/about/sidebar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/about/sidebar/</guid>
+      <guid>//localhost:4321/about/sidebar/</guid>
       <description>** index doesn&amp;rsquo;t contain a body, just front matter above. See about/list.html in the layouts folder **</description>
     </item>
     <item>
       <title>Contributors</title>
-      <link>/contributors/</link>
+      <link>//localhost:4321/contributors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/contributors/</guid>
+      <guid>//localhost:4321/contributors/</guid>
       <description>Thank you to all the folks who have contributed both technical and creative skills to this project:&#xA;Desirée De Leon &amp;#x1f992; (designed 5 of the custom color themes, made illustrations for the workshop, and provided general aesthetic feedback along the way)&#xA;Garrick Aden-Buie &amp;#x1f9d9; (debugged headroom.js and lent his panelset.js code to the theme)&#xA;Allison Horst &amp;#x1f415; (awesome illustrations of campfires, seedlings, and evergreens, as well as my R Markdown hedgehog mascot &amp;#x1f994;)</description>
     </item>
     <item>
       <title>License</title>
-      <link>/license/</link>
+      <link>//localhost:4321/license/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/license/</guid>
+      <guid>//localhost:4321/license/</guid>
       <description>My blog posts are released under a Creative Commons Attribution-ShareAlike 4.0 International License.</description>
     </item>
     <item>
       <title>My research</title>
-      <link>/about/main/</link>
+      <link>//localhost:4321/about/main/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/about/main/</guid>
+      <guid>//localhost:4321/about/main/</guid>
       <description></description>
     </item>
   </channel>

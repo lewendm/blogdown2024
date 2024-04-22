@@ -12,3 +12,5 @@ I'm currently a Post-Doctoral Fellow in Behavioral Economics at [JEDI lab](http:
 I completed my PhD in Leadership and Organisation at BI Norwegian Business School´s Department of Leadership and Organizational Behavior (2023, supervised by Professor Thorvald Hærem and Associate Professor Erik Løhre). My dissertation examined the role of emotions and psychological distance in decision-making under risk and uncertainty. During my PhD, I was also a visiting scholar at New York University, with [Trope Lab](https://sites.google.com/nyu.edu/tropelab//).
 
 I am a huge fan of open science, reproducibility, and replications. I started the first [ReproducibiliTea journal club](https://reproducibilitea.org/) in Norway and am now a steering committee member of the [Norwegian Reproducibility Network](https://norrn.no/).
+
+And I recently became a dad, to a beautiful little baby girl.

@@ -2,73 +2,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo-Site on Hugo Apéro</title>
-    <link>/tags/hugo-site/</link>
+    <link>//localhost:4321/tags/hugo-site/</link>
     <description>Recent content in Hugo-Site on Hugo Apéro</description>
     <generator>Hugo 0.125.1</generator>
     <language>en</language>
     <lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/hugo-site/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:4321/tags/hugo-site/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A first post</title>
-      <link>/blog/spoonful-series/01-spoonful/</link>
+      <link>//localhost:4321/blog/spoonful-series/01-spoonful/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/blog/spoonful-series/01-spoonful/</guid>
+      <guid>//localhost:4321/blog/spoonful-series/01-spoonful/</guid>
       <description> Hi, I&#39;m the here-bot cat! Use me to find your way in your website.&#xA;Here I am: content/blog/spoonful-series/01-spoonful.md To remove me, delete this line inside that file: {{&amp;lt; here &amp;gt;}}&#xA;My content section is: blog My layout is: single-series does this work? or this? Let&amp;rsquo;s start.&#xA;beginning middle end </description>
     </item>
     <item>
       <title>A second post</title>
-      <link>/blog/spoonful-series/02-spoonful/</link>
+      <link>//localhost:4321/blog/spoonful-series/02-spoonful/</link>
       <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/blog/spoonful-series/02-spoonful/</guid>
+      <guid>//localhost:4321/blog/spoonful-series/02-spoonful/</guid>
       <description> Hi, I&#39;m the here-bot cat! Use me to find your way in your website.&#xA;Here I am: content/blog/spoonful-series/02-spoonful/index.md To remove me, delete this line inside that file: {{&amp;lt; here &amp;gt;}}&#xA;My content section is: blog My layout is: single-series Images in this page bundle: /blog/spoonful-series/02-spoonful/sidebar-inverse.jpg part 2! does this work? now for some very cool things more get ready! </description>
     </item>
     <item>
       <title>A third post</title>
-      <link>/blog/spoonful-series/03-spoonful/</link>
+      <link>//localhost:4321/blog/spoonful-series/03-spoonful/</link>
       <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/blog/spoonful-series/03-spoonful/</guid>
+      <guid>//localhost:4321/blog/spoonful-series/03-spoonful/</guid>
       <description>Hi, I&#39;m the here-bot cat! Use me to find your way in your website.&#xA;Here I am: content/blog/spoonful-series/03-spoonful/index.markdown Here is my R Markdown source file: blog/spoonful-series/03-spoonful/index.Rmarkdown You&#39;ll want to edit this file, then re-knit to see the changes take effect in your site preview.&#xA;To remove me, delete this line inside that file: {{&amp;lt; here &amp;gt;}}&#xA;My content section is: blog My layout is: single-series Images in this page bundle: /blog/spoonful-series/03-spoonful/featured-photo.</description>
     </item>
     <item>
       <title>Self-Distancing Regulates the Effect of Incidental Anger (vs. Fear) on Affective Decision-Making Under Uncertainty</title>
-      <link>/pubs/jbdm2024/</link>
+      <link>//localhost:4321/pubs/jbdm2024/</link>
       <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>/pubs/jbdm2024/</guid>
+      <guid>//localhost:4321/pubs/jbdm2024/</guid>
       <description>Abstract Emotions integral to a task are often adaptive, particularly in situations where outcomes and probabilities are not known. However, decisions are also influenced by emotions that arise from situations unrelated to the task. This is especially the case with negative emotions like fear and anger, which also tend to be accompanied by ruminative thinking that might divert decision-makers&amp;rsquo; attention from the task at hand. In two preregistered experiments, we show how self-distancing regulates the influence of incidental anger (vs.</description>
     </item>
     <item>
+      <title>Revisiting representativeness classic paradigms: Replication and extensions of the problems reviewed in Kahneman and Tversky (1972)</title>
+      <link>//localhost:4321/pubs/qjep2024/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/pubs/qjep2024/</guid>
+      <description>Abstract Kahneman and Tversky (1972) showed that when people make probability judgments, they tend to ignore relevant statistical information (e.g., sample size) and instead rely on a representativeness heuristic, whereby subjective probabilities are influenced by the degree to which a target is perceived as similar to (representative of) a typical example of the relevant population, class or category. Their paper has become a cornerstone in many lines of research and has been used to account for various biases in judgment and decision-making.</description>
+    </item>
+    <item>
+      <title>Uncertainty, expertise, and persuasion: A replication and extension of Karmarkar and Tormala (2010)</title>
+      <link>//localhost:4321/pubs/jesp2024/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/pubs/jesp2024/</guid>
+      <description>Abstract If you are trying to persuade someone, expressing your opinion with certainty intuitively seems like a good strategy to maximize your influence. However, Karmarkar and Tormala (2010) found that the effectiveness of this tactic depends on expertise. In three experiments, Karmarkar and Tormala found support for an incongruity hypothesis, whereby non-expert sources can gain interest and influence by expressing certainty, while expert sources can increase persuasion by expressing uncertainty.</description>
+    </item>
+    <item>
       <title>The Dark Versus Bright Side of a Smiley: A Preregistered Replication of Experiment 3 in Glikson et al. (2018)</title>
-      <link>/pubs/smiley/</link>
+      <link>//localhost:4321/pubs/smiley/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>/pubs/smiley/</guid>
+      <guid>//localhost:4321/pubs/smiley/</guid>
       <description>Abstract The present paper reports an independent and better powered replication of Experiment 3 in Glikson et al. (2018). The authors of the original study reported support for their proposition that due to perceptions of (in)appropriateness, the use of smileys may backfire and produce less favorable perceptions of competence in a formal work-related setting, yet more favorable perceptions of warmth in an informal work-related setting. Our results, in contrast, indicated that smileys produce a negative effect on perceptions of competence and a positive effect on perceptions of warmth, regardless of the level of formality.</description>
     </item>
     <item>
+      <title>Individual Differences in Fear and Self-Distancing Predict Information Processing via Problem Construal</title>
+      <link>//localhost:4321/pubs/paid2023/</link>
+      <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/pubs/paid2023/</guid>
+      <description>Abstract In two preregistered online studies (NTotal = 984; Prolific), we examined how individual differences in fear and self-distancing predict information processing in decision-making involving risk in a business scenario. Dispositional fear was positively related to urgent and affective intuitive processing and negatively related to analytical processing. Self-distancing was positively related to analytical processing. These relations occurred indirectly via problem construal. Dispositional fear predicted less concrete problem construal, which in turn predicted more urgent intuitive processing and less analytical processing.</description>
+    </item>
+    <item>
+      <title>Open-office noise and information processing</title>
+      <link>//localhost:4321/pubs/jmp2023/</link>
+      <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/pubs/jmp2023/</guid>
+      <description>Abstract We draw on arousal-based models to develop and test a model of open-office noise and information processing. Specifically, we examined whether open-office noise changes how people process information and whether such a change has consequences for task performance. In a laboratory experiment, we randomly assigned participants (107 students at a business school) to either a silent condition or a condition that exposed them to open-office noise (irrelevant speech) while completing a task that requires cognitive flexibility.</description>
+    </item>
+    <item>
       <title>Fear and anxiety differ in construal level and scope</title>
-      <link>/pubs/ce2023/</link>
+      <link>//localhost:4321/pubs/ce2023/</link>
       <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>/pubs/ce2023/</guid>
+      <guid>//localhost:4321/pubs/ce2023/</guid>
       <description>Abstract The fear-anxiety distinction has been extensively discussed and debated among emotion researchers. In this study, we tested this distinction from a social-cognitive perspective. Drawing on construal level theory and regulatory scope theory, we examined whether fear and anxiety differ in their underlying level of construal and scope. Results from a preregistered autobiographical recall study (N = 200) that concerned either a fear situation or an anxiety situation and a large dataset from Twitter (N = 104,949) indicated that anxiety was associated with a higher level of construal and a more expansive scope than fear.</description>
     </item>
     <item>
+      <title>Fear from Afar, Not So Risky After All. Distancing Moderates the Relationship Between Fear and Risk Taking</title>
+      <link>//localhost:4321/pubs/frontiers2021/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/pubs/frontiers2021/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>CSS Grid Scaffold</title>
-      <link>/blog/css-grid-scaffold/</link>
+      <link>//localhost:4321/blog/css-grid-scaffold/</link>
       <pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/blog/css-grid-scaffold/</guid>
+      <guid>//localhost:4321/blog/css-grid-scaffold/</guid>
       <description>“Grid is the very first CSS module created specifically to solve the layout problems we&amp;rsquo;ve all been hacking our way around for as long as we&amp;rsquo;ve been making websites.” — Chris House, A Complete Guide to CSS Grid Layout 1&#xA;Overview Since I began building websites in Y2K, I&amp;rsquo;ve lost count how many times the phrase &amp;ldquo;&amp;hellip;there&amp;rsquo;s got to be a better way to do this&amp;rdquo; has passed my lips.</description>
     </item>
     <item>
       <title>A Replication of Study 1 in Differentiating Social and Personal Power by Lammers, Stoker, and Stapel (2009)</title>
-      <link>/pubs/sp2019/</link>
+      <link>//localhost:4321/pubs/sp2019/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/pubs/sp2019/</guid>
+      <guid>//localhost:4321/pubs/sp2019/</guid>
       <description>Abstract We performed an independent, direct, and better powered (N = 295) replication of Study 1, an experiment (N = 113) by Lammers, Stoker, and Stapel (2009). Lammers and colleagues distinguished between social power (influence over others) and personal power (freedom from the influence of others), and found support for their predictions that the two forms of power produce opposite effects on stereotyping, but parallel effects on behavioral approach. Our results did not replicate the effects on behavioral approach, but partially replicated the effects on stereotyping.</description>
     </item>
     <item>
       <title>Built-in Contact Form</title>
-      <link>/blog/built-in-contact-form/</link>
+      <link>//localhost:4321/blog/built-in-contact-form/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/blog/built-in-contact-form/</guid>
+      <guid>//localhost:4321/blog/built-in-contact-form/</guid>
       <description>Formspree makes it easy to receive submissions from HTML forms on your static website. Functional Form This theme has a form-to-email feature built in, thanks to the simple Formspree integration. All you need to activate the form is a valid recipient email address saved in the front matter of the form (/content/forms/contact.md). Of course, the example shown below (your@email.here) must not be used. Please use your actual email address.</description>
     </item>
   </channel>
