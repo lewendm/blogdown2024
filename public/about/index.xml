@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on Hugo Apéro</title>
+    <link>/about/</link>
+    <description>Recent content in About on Hugo Apéro</description>
+    <generator>Hugo 0.125.1</generator>
+    <language>en</language>
+    <atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>/about/header/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/about/header/</guid>
+      <description>I&amp;rsquo;m currently a Post-Doctoral Fellow in Behavioral Economics at JEDI lab at Linköping University in Sweden &amp;#x1f1f8;&amp;#x1f1ea; and an Associate Professor in Organizational Behavior at Oslo Business School (OsloMet) in Oslo, Norway &amp;#x1f1f3;&amp;#x1f1f4;.&#xA;I completed my PhD in Leadership and Organisation at BI Norwegian Business School´s Department of Leadership and Organizational Behavior (2023, supervised by Professor Thorvald Hærem and Associate Professor Erik Løhre). My dissertation examined the role of emotions and psychological distance in decision-making under risk and uncertainty.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>/about/sidebar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/about/sidebar/</guid>
+      <description>** index doesn&amp;rsquo;t contain a body, just front matter above. See about/list.html in the layouts folder **</description>
+    </item>
+    <item>
+      <title>My research</title>
+      <link>/about/main/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/about/main/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

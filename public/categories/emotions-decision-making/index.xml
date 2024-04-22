@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emotions, Decision Making on Hugo Apéro</title>
+    <link>//localhost:4321/categories/emotions-decision-making/</link>
+    <description>Recent content in Emotions, Decision Making on Hugo Apéro</description>
+    <generator>Hugo 0.125.1</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 19 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:4321/categories/emotions-decision-making/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Self-Distancing Regulates the Effect of Incidental Anger (vs. Fear) on Affective Decision-Making Under Uncertainty</title>
+      <link>//localhost:4321/pubs/jbdm2024/</link>
+      <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/pubs/jbdm2024/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
