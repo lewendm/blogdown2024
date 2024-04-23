@@ -7,8 +7,4 @@ number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: |
   My research covers different themes, but broadly, it centers on judgment and decision-making, focusing on how emotions and various cognitive and social psychological factors shape people´s decisions, particularly those made under risk and uncertainty. Much of my work is also focused on replication of previous well-established findings.
-
-show_outro: true
-outro: |
-  Want to chat? Feel free to get in touch with me on [Twitter/X](https://twitter.com/LewendM) or via email at lewend.m@hotmail.com!
 ---
