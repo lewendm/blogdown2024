@@ -1,6 +1,6 @@
 ---
 title: Publications
-description: "Broadly speaking, my research focuses on the emotional and (socio)-cognitive factors that shape how people make judgments and decisions, such as those involving risk and uncertainty. Much of my work also focuses on replicating well-known findings in this field."
+description: "My research focuses on the emotional and (socio)-cognitive factors that shape people´s udgments and decisions, such as those involving risk and uncertainty. Much of my work also focuses on replicating previous findings."
 author: ""
 show_post_thumbnail: true
 show_author_byline: true
