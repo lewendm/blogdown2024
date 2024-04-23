@@ -16,4 +16,4 @@ I am a huge fan of open science and reproducibility. I started the first [Reprod
 
 And I recently became a dad, to a beautiful little baby girl :heart:.
 
-eel free to get in touch with me on [Twitter/X](https://twitter.com/LewendM) or via email at lewend.m@hotmail.com!
+Feel free to get in touch with me on [Twitter/X](https://twitter.com/LewendM) or via email at lewend.m@hotmail.com!
