@@ -1,6 +1,6 @@
 ---
 title: Publications
-description: "I publish on a variety of topics, though generally the focus is on judgment and decision-making. I also work quite a bit on replications and extensions of previous well-established findings."
+description: "Broadly speaking, my research focuses on the emotional and (socio)-cognitive factors that shape how people make judgments and decisions, such as those involving risk and uncertainty. Much of my work also focuses on replicating well-known findings in this field."
 author: ""
 show_post_thumbnail: true
 show_author_byline: true
