@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Media on Hugo Apéro</title>
+    <link>//localhost:4321/media/</link>
+    <description>Recent content in Media on Hugo Apéro</description>
+    <generator>Hugo 0.125.1</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 13 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:4321/media/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Smilefjes og jobb: Smileys i jobbmail er risikosport hvis man vil virke kompetent.</title>
+      <link>//localhost:4321/media/dn2023/</link>
+      <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/media/dn2023/</guid>
+      <description>My colleague and first author presents our paper on the effect of smiley usage on perceptions of warmth and competence in Dagens Næringsliv (DN). The article can be accessed here.</description>
+    </item>
+    <item>
+      <title>Fram for troverdig forskning (Research must be transparent and verifiable)</title>
+      <link>//localhost:4321/media/forskerforum/</link>
+      <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/media/forskerforum/</guid>
+      <description>Together with researchers at University of Oslo and Østfold University College, we wrote a short piece (in Norwegian) that announces the establishment of the Norwegian Reproducibility Network (NORRN)—a national initiative aimed at improving the transparency and reproducibility of research in Norway. The article can be accessed here.</description>
+    </item>
+    <item>
+      <title>The Dilemmas of Practicing Open Science for Junior Researchers</title>
+      <link>//localhost:4321/media/forskningspolitikk/</link>
+      <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/media/forskningspolitikk/</guid>
+      <description>A colleague and I wrote a short piece on the importance and dilemmas of practicing open science for junior research. The article was published in the Norwegian journal Forskningspolitikk. The article can be accessed here.</description>
+    </item>
+    <item>
+      <title>Interview: How can leaders improve their decision making?</title>
+      <link>//localhost:4321/media/2022-02-26-e24-interview/</link>
+      <pubDate>Sat, 26 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/media/2022-02-26-e24-interview/</guid>
+      <description>I was interviewed to share my thoughts on how leaders can improve their decision making by better understanding the role of emotions. The interviewed appeared in an article (in Norwegian) published in a Norwegian business magazine that can be accessed 👉 here.</description>
+    </item>
+    <item>
+      <title>Three strategies to make difficult decisions easier</title>
+      <link>//localhost:4321/media/bibusinessmagazine/</link>
+      <pubDate>Thu, 10 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/media/bibusinessmagazine/</guid>
+      <description>I wrote a short practioner-focused piece summarizing findings from one of my PhD papers examining the influence of emotions and emotion regulation on risky decision making. The piece can be accessed 👉 [here] ( https://www.bi.edu/research/business-review/articles/2021/06/three-strategies-to-make-difficult-decisions-easier/).</description>
+    </item>
+  </channel>
+</rss>

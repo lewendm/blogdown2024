@@ -1,7 +1,7 @@
 ---
 title: "Lewend Mayiwar"
-subtitle: "Post Doctoral Fellow in Behavioral Economics & Associate Professor in Organizational Behavior"
-description: "Trying to understand how people think and feel, in an open and reproducible way."
+subtitle: "Decision Making | Emotions | Organizational Behavior"
+description: "Trying to understand how we think and feel, in an open and reproducible way."
 images:
   - img/avatar.jpg
 image_left: true

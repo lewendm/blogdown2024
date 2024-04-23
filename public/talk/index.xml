@@ -1,33 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Talks that Last on Hugo Apéro</title>
+    <title>Talks &amp; Workshops on Hugo Apéro</title>
     <link>//localhost:4321/talk/</link>
-    <description>Recent content in Talks that Last on Hugo Apéro</description>
+    <description>Recent content in Talks &amp; Workshops on Hugo Apéro</description>
     <generator>Hugo 0.125.1</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 12 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Jun 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:4321/talk/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A campfire</title>
-      <link>//localhost:4321/talk/campfire/</link>
-      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/talk/campfire/</guid>
-      <description>I&amp;rsquo;m really excited to give this talk! Stay tuned for video and slides.</description>
+      <title>Replication workshop with Gilad Feldman</title>
+      <link>//localhost:4321/talk/replicationworkshop2023/</link>
+      <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/talk/replicationworkshop2023/</guid>
+      <description>I was so excited to invite Gilad Feldman, Assistant Professor at Hong Kong University, for a hands-on workshop on replications at our department. For two intensive days, Gilad walked us through every key stage of conducting a replication. We targeted a classic study to replicate, dissected the target to figure out how to replicate it, preregistered analytical plan and hypotheses, collected data, and even ended up with a manuscript draft that we worked on together.</description>
     </item>
     <item>
-      <title>A seedling</title>
-      <link>//localhost:4321/talk/second-seedling/</link>
-      <pubDate>Fri, 01 Jan 2021 14:15:59 -0600</pubDate>
-      <guid>//localhost:4321/talk/second-seedling/</guid>
-      <description></description>
+      <title>Norwegian Reproducibility Network (NORRN) Annual Event 2023</title>
+      <link>//localhost:4321/talk/norrn2023/</link>
+      <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/talk/norrn2023/</guid>
+      <description>I had the pleasure of moderating a panel discussion on open science in higher education at the Norwegian Reproducibility Network&amp;rsquo;s Annual Conference. The panelists were Ulf Toelch (QUEST Center for Responsible Research, Berlin Institute of Health), Nora Rose Serres (PhD Candidate), and Erik Løhre (Associate Professor in Organizational Behavior, BI Norwegian Business School). The panelists were invited to discuss how universities and business schools can integrate practices like reproducibility, replications, and registered reports in higher education.</description>
     </item>
     <item>
-      <title>A seedling</title>
-      <link>//localhost:4321/talk/seedling/</link>
-      <pubDate>Mon, 13 Jan 2020 14:15:59 -0600</pubDate>
-      <guid>//localhost:4321/talk/seedling/</guid>
-      <description></description>
+      <title>Invited talk: The challenges and benefits of practicing open science as a junior researcher</title>
+      <link>//localhost:4321/talk/ldm2022/</link>
+      <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/talk/ldm2022/</guid>
+      <description>Invited for a talk on the challenges and benefits of practicing open science as a junior researcher for the Lab for the Developing Mind at New York University.&#xA;👉 Access my slides here.</description>
+    </item>
+    <item>
+      <title>Norwegian Reproducibility Network Annual Event 2022</title>
+      <link>//localhost:4321/talk/norrn2022/</link>
+      <pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/talk/norrn2022/</guid>
+      <description>I was invited to participate in a panel discussion together with Dr. Priya Silverstein for the Norwegian Reproducibility Network&amp;rsquo;s Kick-Off Event. We discussed the challenges and benefits of practicing open science for early career researchers. Priya is a researcher who does amazing work in open science and it was such an honor and pleasure to chat with her. The discussion was moderated by Dr. Julien Mayor (University of Oslo). Our discussion followed an excellent keynote talk by Dr.</description>
+    </item>
+    <item>
+      <title>Invited talk: Preregistration: what, why, when, how?</title>
+      <link>//localhost:4321/talk/prereg/</link>
+      <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/talk/prereg/</guid>
+      <description>Gave a talk on preregistration for the department of Leadership &amp;amp; Organizational Behavior at BI Norwegian Business School. This was an introduction to preregistration, where I covered what a preregistration is, why we do it, when we should and shouldn&amp;rsquo;t do it, and how to preregister studies on the Open Science Framework (OSF).&#xA;👉 You can access my slides here.</description>
+    </item>
+    <item>
+      <title>Invited talk: The first ReproducibiliTea journal club in Norway</title>
+      <link>//localhost:4321/talk/reprouio/</link>
+      <pubDate>Tue, 15 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/talk/reprouio/</guid>
+      <description>Invited for a talk on our ReproducibiliTea journal club at BI Norwegian Business School for the UiO ReproducibiliTea journal club at the University of Oslo.&#xA;👉 You can access my slides here.</description>
     </item>
   </channel>
 </rss>

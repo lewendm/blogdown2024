@@ -10,5 +10,5 @@ intro: |
 
 show_outro: true
 outro: |
-  Want to chat? Feel free to get in touch with me on Twitter/X or via email at lewend.m@hotmail.com!
+  Want to chat? Feel free to get in touch with me on [Twitter/X](https://twitter.com/LewendM) or via email at lewend.m@hotmail.com!
 ---

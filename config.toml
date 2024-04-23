@@ -88,7 +88,7 @@ enableEmoji = true
   [[params.social]]
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://github.com/apreshill/apero"
+      url       = "https://github.com/lewendm"
   [[params.social]]
       icon      = "instagram" # icon name without the 'fa-'
       icon_pack = "fab"
@@ -109,10 +109,6 @@ enableEmoji = true
       icon      = "osf" # icon name without the 'fa-'
       icon_pack = "ai"
       url       = "https://osf.io/sdej7/"
-  [[params.social]]
-      icon      = "github" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://github.com/lewendm"
 
 [taxonomies]
   category = "categories"
@@ -131,6 +127,11 @@ enableEmoji = true
     title = "Pubs"
     url = "/pubs/"
     weight = 2
+  [[menu.header]]
+    name = "Media"
+    title = "media"
+    url = "/media/"
+    weight = 3
   [[menu.header]]
     name = "Talks"
     title = "Talks"
