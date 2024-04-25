@@ -6,7 +6,6 @@ use_featured: false # if false, use most recent by date
 number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: |
-  
   I'm currently a Post-Doctoral Fellow in Behavioral Economics at [JEDI lab](http://jedilab.weebly.com/) at Linköping University in Sweden and an Associate Professor in Organizational Behavior at Oslo Business School (OsloMet) in Oslo, Norway.
 
   I completed my PhD in Leadership and Organisation at BI Norwegian Business School in 2023, supervised by Professor Thorvald Hærem and Associate Professor Erik Løhre. My dissertation examined the role of emotions and psychological distance in decision-making under risk and uncertainty. During my PhD, I was also a visiting scholar at New York University, with [Trope Lab](https://sites.google.com/nyu.edu/tropelab//).
