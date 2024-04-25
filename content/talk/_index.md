@@ -2,7 +2,7 @@
 author: Lewend Mayiwar
 title: Talks & Workshops
 description: 
-layout: list # default was list-grid
+layout: list-sidebar # default was list-grid
 show_author_byline: true
 show_button_links: false
 show_post_date: false
@@ -20,8 +20,8 @@ sidebar:
   author: Lewend Mayiwar
   description: "text"
   show_sidebar_adunit: false
-  text_link_label: "Google Scholar"
-  text_link_url: "inserto"
+  text_link_label: "text"
+  text_link_url: "insert"
   title: Talks & Workshops  
 ---
 
