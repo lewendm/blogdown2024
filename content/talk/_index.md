@@ -1,5 +1,5 @@
 ---
-author: Lewend Mayiwar
+author:  
 title: Talks & Workshops
 description: 
 layout: list # default was list-grid

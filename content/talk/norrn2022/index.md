@@ -1,5 +1,5 @@
 ---
-title: "Norwegian Reproducibility Network Annual Event 2022"
+title: "Invited talk: Norwegian Reproducibility Network Annual Event 2022"
 subtitle: Fireside Chat with Dr. Priya Silverstein"
 excerpt: ""
 date: 2022-06-20

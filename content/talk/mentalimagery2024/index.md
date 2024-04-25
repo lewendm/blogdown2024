@@ -1,5 +1,5 @@
 ---
-title: "Mental imagery, emotions, and decision making seminar"
+title: "Invited talk: Mental imagery, emotions, and decision making seminar"
 subtitle: ""
 excerpt: ""
 date: 2024-04-19
