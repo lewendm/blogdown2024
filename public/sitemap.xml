@@ -38,13 +38,13 @@
     <loc>//localhost:4321/collection/day02/03-blogdown/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>//localhost:4321/pubs/</loc>
+    <lastmod>2024-03-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//localhost:4321/tags/hugo-site/</loc>
     <lastmod>2024-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:4321/</loc>
-    <lastmod>2024-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:4321/pubs/</loc>
     <lastmod>2024-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:4321/pubs/jbdm2024/</loc>
@@ -85,6 +85,9 @@
   </url><url>
     <loc>//localhost:4321/pubs/jmp2023/</loc>
     <lastmod>2023-06-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:4321/talk/mentalimagery2024/</loc>
+    <lastmod>2023-06-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:4321/talk/norrn2023/</loc>
     <lastmod>2023-06-05T00:00:00+00:00</lastmod>
@@ -190,6 +193,8 @@
   </url><url>
     <loc>//localhost:4321/about/header/</loc>
   </url><url>
+    <loc>//localhost:4321/about/main/</loc>
+  </url><url>
     <loc>//localhost:4321/about/sidebar/</loc>
   </url><url>
     <loc>//localhost:4321/about/</loc>
@@ -197,7 +202,5 @@
     <loc>//localhost:4321/contributors/</loc>
   </url><url>
     <loc>//localhost:4321/license/</loc>
-  </url><url>
-    <loc>//localhost:4321/about/main/</loc>
   </url>
 </urlset>

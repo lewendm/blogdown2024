@@ -136,6 +136,13 @@
     </item>
     <item>
       <title>Norwegian Reproducibility Network (NORRN) Annual Event 2023</title>
+      <link>//localhost:4321/talk/mentalimagery2024/</link>
+      <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/talk/mentalimagery2024/</guid>
+      <description>I had the pleasure of moderating a panel discussion on open science in higher education at the Norwegian Reproducibility Network&amp;rsquo;s Annual Conference. The panelists were Ulf Toelch (QUEST Center for Responsible Research, Berlin Institute of Health), Nora Rose Serres (PhD Candidate), and Erik Løhre (Associate Professor in Organizational Behavior, BI Norwegian Business School). The panelists were invited to discuss how universities and business schools can integrate practices like reproducibility, replications, and registered reports in higher education.</description>
+    </item>
+    <item>
+      <title>Norwegian Reproducibility Network (NORRN) Annual Event 2023</title>
       <link>//localhost:4321/talk/norrn2023/</link>
       <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
       <guid>//localhost:4321/talk/norrn2023/</guid>
@@ -307,7 +314,14 @@
       <link>//localhost:4321/about/header/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:4321/about/header/</guid>
-      <description>I&amp;rsquo;m currently a Post-Doctoral Fellow in Behavioral Economics at JEDI lab at Linköping University in Sweden &amp;#x1f1f8;&amp;#x1f1ea; and an Associate Professor in Organizational Behavior at Oslo Business School (OsloMet) in Oslo, Norway &amp;#x1f1f3;&amp;#x1f1f4;.&#xA;I completed my PhD in Leadership and Organisation at BI Norwegian Business School in 2023, supervised by Professor Thorvald Hærem and Associate Professor Erik Løhre. My dissertation examined the role of emotions and psychological distance in decision-making under risk and uncertainty.</description>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:4321/about/main/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/about/main/</guid>
+      <description></description>
     </item>
     <item>
       <title></title>
@@ -329,13 +343,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:4321/license/</guid>
       <description>My blog posts are released under a Creative Commons Attribution-ShareAlike 4.0 International License.</description>
-    </item>
-    <item>
-      <title>My research</title>
-      <link>//localhost:4321/about/main/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/about/main/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>
