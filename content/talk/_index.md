@@ -10,7 +10,7 @@ show_post_thumbnail: true
 type: talk
 
 cascade:
-  type: project
+  type: talk
   show_author_byline: true
   show_comments: false
   show_post_date: true
