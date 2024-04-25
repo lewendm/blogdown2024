@@ -2,7 +2,7 @@
 author: Lewend Mayiwar
 title: Talks & Workshops
 description: 
-layout: list-sidebar # default was list-grid
+layout: list # default was list-grid
 show_author_byline: true
 show_button_links: false
 show_post_date: false
@@ -10,7 +10,7 @@ show_post_thumbnail: true
 type: talk
 
 cascade:
-  type: talk
+  type: project
   show_author_byline: true
   show_comments: false
   show_post_date: true
