@@ -6,21 +6,21 @@
     <description>Recent content in Workshop on Hugo Apéro</description>
     <generator>Hugo 0.125.1</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:4321/categories/workshop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mental imagery, emotions, and decision making seminar</title>
+      <link>//localhost:4321/talk/mentalimagery2024/</link>
+      <pubDate>Fri, 19 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/talk/mentalimagery2024/</guid>
+      <description>Invited for a talk at research seminar with a small group of experts in mental imagery, emotions, and decision-making. I presented an ongoing post-doc project (together with Emil Persson, Gustav Tinghög, Daniel Västfjäll, at JEDI Lab, Linköping University) where we examine the role of psychological distance and mental imagery in decisions involving trust.</description>
+    </item>
     <item>
       <title>Replication workshop with Gilad Feldman</title>
       <link>//localhost:4321/talk/replicationworkshop2023/</link>
       <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
       <guid>//localhost:4321/talk/replicationworkshop2023/</guid>
       <description>I was so excited to invite Gilad Feldman, Assistant Professor at Hong Kong University, for a hands-on workshop on replications at our department. For two intensive days, Gilad walked us through every key stage of conducting a replication. We targeted a classic study to replicate, dissected the target to figure out how to replicate it, preregistered analytical plan and hypotheses, collected data, and even ended up with a manuscript draft that we worked on together.</description>
-    </item>
-    <item>
-      <title>Norwegian Reproducibility Network (NORRN) Annual Event 2023</title>
-      <link>//localhost:4321/talk/mentalimagery2024/</link>
-      <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/talk/mentalimagery2024/</guid>
-      <description>I had the pleasure of moderating a panel discussion on open science in higher education at the Norwegian Reproducibility Network&amp;rsquo;s Annual Conference. The panelists were Ulf Toelch (QUEST Center for Responsible Research, Berlin Institute of Health), Nora Rose Serres (PhD Candidate), and Erik Løhre (Associate Professor in Organizational Behavior, BI Norwegian Business School). The panelists were invited to discuss how universities and business schools can integrate practices like reproducibility, replications, and registered reports in higher education.</description>
     </item>
     <item>
       <title>Norwegian Reproducibility Network (NORRN) Annual Event 2023</title>

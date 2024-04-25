@@ -38,13 +38,25 @@
     <loc>//localhost:4321/collection/day02/03-blogdown/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>//localhost:4321/categories/</loc>
+    <lastmod>2024-04-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:4321/</loc>
+    <lastmod>2024-04-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:4321/talk/mentalimagery2024/</loc>
+    <lastmod>2024-04-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:4321/talk/</loc>
+    <lastmod>2024-04-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:4321/categories/workshop/</loc>
+    <lastmod>2024-04-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//localhost:4321/pubs/</loc>
     <lastmod>2024-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:4321/tags/hugo-site/</loc>
-    <lastmod>2024-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:4321/</loc>
     <lastmod>2024-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:4321/pubs/jbdm2024/</loc>
@@ -71,23 +83,11 @@
     <loc>//localhost:4321/pubs/paid2023/</loc>
     <lastmod>2023-08-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:4321/categories/</loc>
-    <lastmod>2023-06-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//localhost:4321/talk/replicationworkshop2023/</loc>
-    <lastmod>2023-06-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:4321/talk/</loc>
-    <lastmod>2023-06-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:4321/categories/workshop/</loc>
     <lastmod>2023-06-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:4321/pubs/jmp2023/</loc>
     <lastmod>2023-06-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:4321/talk/mentalimagery2024/</loc>
-    <lastmod>2023-06-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:4321/talk/norrn2023/</loc>
     <lastmod>2023-06-05T00:00:00+00:00</lastmod>
