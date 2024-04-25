@@ -1,36 +1,28 @@
 ---
-title: Publications
-description: "My research focuses on the emotional and (socio)-cognitive factors that shape people´s udgments and decisions, such as those involving risk and uncertainty. Much of my work also focuses on replicating previous findings."
-author: ""
-show_post_thumbnail: true
+author: Lewend Mayiwar
+title: Academic publications
+description: These are my academic publications.
+layout: list-sidebar # default was list-grid
 show_author_byline: true
-show_post_date: false
 show_button_links: false
-# for listing page layout
-layout: list # list, list-sidebar, list-grid
+show_post_date: false
+show_post_thumbnail: true
+type: project
 
-# for list-sidebar layout
-sidebar: 
-  title: A Sidebar for Your Projects
-  description: |
-    Projects can be anything!
-    Check out the _index.md file in the /project folder 
-    to edit this content.
-  author: "The R Markdown Team @RStudio"
-  text_link_label: ""
-  text_link_url: ""
-  show_sidebar_adunit: false # show ad container
-
-# set up common front matter for all individual pages inside project/
-cascade:    
+cascade:
+  type: project
   show_author_byline: true
+  show_comments: false
   show_post_date: true
-  show_comments: false # see site config to choose Disqus or Utterances
-  # for single-sidebar layout only
-  sidebar:
-    text_link_label: View all projects
-    text_link_url: /project/
-    show_sidebar_adunit: true # show ad container
+
+sidebar:
+  type: project
+  author: Lewend Mayiwar
+  description: "Broadly, my research examines the role of emotions and other (socio)-cognitive factors in judgment and decision-making under risk and uncertainty. Here you'll find the abstracts, links to PDFs, the official journal article pages, and corresponding OSF pages containing data, code, and materials."
+  show_sidebar_adunit: false
+  text_link_label: "Google Scholar"
+  text_link_url: "https://scholar.google.com/citations?user=Z-FRXGkAAAAJ&hl=en&oi=ao"
+  title: Academic publications  
 ---
 
 ** No content for the project index. This file provides front matter for the blog including the layout and boolean options. **
