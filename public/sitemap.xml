@@ -41,10 +41,10 @@
     <loc>//localhost:4321/categories/</loc>
     <lastmod>2024-04-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:4321/</loc>
+    <loc>//localhost:4321/talk/mentalimagery2024/</loc>
     <lastmod>2024-04-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:4321/talk/mentalimagery2024/</loc>
+    <loc>//localhost:4321/</loc>
     <lastmod>2024-04-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:4321/talk/</loc>
@@ -69,6 +69,9 @@
     <lastmod>2024-03-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:4321/pubs/jesp2024/</loc>
+    <lastmod>2024-03-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:4321/pubs/rsop2024/</loc>
     <lastmod>2024-03-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:4321/pubs/smiley/</loc>
