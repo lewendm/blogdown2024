@@ -20,7 +20,7 @@ links:
   - icon: file-pdf
     icon_pack: fa
     name: PDF
-    url: pdf/smiley.pdf
+    url: pdf/jbdm2024.pdf
 ---
 
 ## Abstract
