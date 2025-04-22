@@ -20,7 +20,7 @@ links:
   - icon: file-pdf
     icon_pack: fa
     name: PDF
-    url: pdf/jpsp3035.pdf
+    url: pdf/jpsp2025.pdf
 ---
 
 ## Abstract
