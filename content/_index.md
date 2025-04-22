@@ -3,7 +3,7 @@ title: "Lewend Mayiwar"
 subtitle: "Decision Making | Emotions | Organizational Behavior"
 description: "Trying to understand how we think and feel, in an open and reproducible way."
 images:
-  - img/avatar.jpg
+  - img/profilepic2025.jpg
 image_left: true
 text_align_left: false
 show_social_links: true # specify social accounts in site config
