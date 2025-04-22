@@ -1,4 +1,3 @@
-
 ---
 title: "Fear and anxiety differ in construal level and scope"
 subtitle: "Cognition and Emotion"
