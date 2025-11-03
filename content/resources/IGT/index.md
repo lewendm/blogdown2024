@@ -1,6 +1,5 @@
 ---
 title: "Emotion-based decision feedback (Iowa Gambling Task)"
-date: 2025-01-02
 type: project
 summary: "Feedback on use of affective signals in IGT; data collected with PsyToolkit."
 ---

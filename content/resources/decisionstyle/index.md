@@ -1,9 +1,8 @@
 ---
 title: "Decision-making style feedback report (REI + CRT)"
 subtitle: "Rational–Experiential Inventory + Cognitive Reflection Test"
-date: 2025-01-01
-layout: single
-draft: false
+type: project
+summary: Feedback on decision-making style (intuition vs deliberation).
 ---
 Below is an R script that generates individualized feedback reports based on students’ responses to two well-established measures of reasoning and decision-making style. You’ll also find the Qualtrics file used in my course, which the R code is built around; it can be imported directly into Qualtrics.
 
