@@ -16,7 +16,7 @@ The feedback report summarizes students’ CRT responses, produces a radar (spid
 - Example figure from the report: ![](/resources/figure1.png)
 
 
-**Reference**  
+**References**  
 
 Pacini, R., & Epstein, S. (1999). The relation of rational and experiential information processing styles to personality, basic beliefs, and the ratio-bias phenomenon. *Journal of Personality and Social Psychology, 76*(6), 972–987.
 
