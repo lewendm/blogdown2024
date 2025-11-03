@@ -5,13 +5,14 @@ date: 2025-01-01
 layout: single
 draft: false
 ---
-This report uses the **Rational–Experiential Inventory** (Pacini & Epstein, 1999) plus the **CRT**. It produces a radar/spider chart of the four REI dimensions and classifies people into quadrants.
+This report uses the **Rational–Experiential Inventory (REI)** (Pacini & Epstein, 1999), which measures general preference for intuitive and analytical thinking, and the **Cognitive Reflection test (CRT)** which is a measure of people's tendency to override intuitive responses via deliberation. The report summarizes answers to the CRT questions, largely based, creates a radar/spider chart of the four REI dimensions and classifies people into quadrants that demonstrate the interaction of styles.
 
 - 📄 [Example report (PDF)](/resources/decisionmakingstyle_example.pdf)
 - 🧪 [Qualtrics survey (.qsf)](/resources/decisionmakingstyle_survey.qsf)
 - 👨‍💻 <a href="/resources/feedback-report.R" download>Download R script</a>
-- 🖼️ ![](/resources/figure1.png)
 
+
+![](/resources/figure1.png)
 
 
 
