@@ -2,6 +2,7 @@
 title: "Teaching"
 subtitle: "Courses and resources"
 layout: wide-body
+show_title_as_headline: true
 draft: false
 ---
 
@@ -36,3 +37,7 @@ Below are example plots from the two reports, to can see what the output looks l
 ![Example figure: decision-making style radar chart](/resources/figure1.png)
 
 ![Example figure: Iowa Gambling Task feedback](/resources/figure2.png)
+
+### References
+- Pacini, R. & Epstein, S. (1999). The relation of rational and experiential information processing styles to personality, basic beliefs, and the ratio-bias phenomenon. *Journal of Personality and Social Psychology*, 76(6), 972-987.  
+- Bechara, A., Damasio, A. R., Damasio, H., & Anderson, S. W. (1994). Insensitivity to future consequences following damage to human prefrontal cortex. *Cognition*, 50(1-3), 7-15.  
