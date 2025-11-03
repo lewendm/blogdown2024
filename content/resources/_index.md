@@ -1,7 +1,7 @@
 ---
 title: "Teaching"
 subtitle: "Courses and resources"
-layout: wide-body
+layout: single
 show_title_as_headline: true
 draft: false
 ---
