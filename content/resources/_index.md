@@ -1,7 +1,28 @@
 ---
 title: "Teaching"
-description: "Resources"
-layout: "single"
+subtitle: Courses and resources
+excerpt: ""
+date: 2025-11-04
+featured: true
+show_post_time: false
+event: ""
+event_url: 
+author: ""
+location: 
+draft: false
+# layout options: single, single-sidebar
+layout: single
+categories:
+- workshop
+links:
+#- icon: door-open
+#  icon_pack: fas
+#  name: website
+#  url: https://bakeoff.netlify.com/
+#- icon: github
+#  icon_pack: fab
+#  name: code
+#  url: https://github.com/apreshill/bakeoff
 ---
 
 Some resources/tools I have created or come across that I use in my teaching. Feel free to use and adapt.
