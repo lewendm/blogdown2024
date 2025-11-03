@@ -1,6 +1,7 @@
 ---
 title: "Teaching"
 description: "Resources"
+layout: "single"
 ---
 
 Some resources/tools I have created or come across that I use in my teaching. Feel free to use and adapt.
