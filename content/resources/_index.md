@@ -1,6 +1,6 @@
 ---
-title: "Teaching"
-description: "Courses, assignments, and code/resources I use in teaching."
+title: "Resources"
+description: "Resources I use in teaching."
 layout: list-sidebar
 show_author_byline: false
 show_button_links: false
@@ -17,7 +17,7 @@ cascade:
 sidebar:
   type: project
   title: "Teaching resources"
-  description: "Materials for courses on decision making, emotions, and quantitative methods: example feedback reports, R code, and survey instruments."
+  description: "Materials for courses on decision making and quantitative methods: example feedback reports, R code, and survey instruments."
   show_sidebar_adunit: false
 ---
 
