@@ -147,6 +147,11 @@ enableEmoji = true
     title = "CV"
     url = "/cv/Mayiwar_CV.pdf/"
     weight = 5
+  [[menu.main]]
+    name = "Resources"           # what shows in the top nav
+    url = "resources/"           # the page we’ll create
+    weight = 6                   # move up/down in the menu
+
   #[[menu.header]]
    # name = "Blog"
   #  title = "Blog"
