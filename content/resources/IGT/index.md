@@ -10,10 +10,14 @@ The version I use runs on a free, browser-based platform called PsyToolkit (see 
 When you download data from PsyToolkit, you’ll get one text file per participant, with data from all 100 trials (e.g., which deck they chose, how much they won or lost, and how long they took to decide).
 To use the feedback generator script below, you’ll first need to merge all these individual data files into one dataset and reshape it to long format. I haven’t automated that step yet in the R code — hopefully I’ll get around to it soon.
 
+- ⬇️ <a href="/resources/igt_feedback_report.R" download>Download R script</a>
+
 - 🌐 Source task in PsyToolkit: https://www.psytoolkit.org/experiment-library/igt.html
+
 - 📄 [Example report (PDF)](/resources/IGT_feedbackexample.pdf)
-- ‍💻 <a href="/resources/igt_feedback_report.R" download>Download R script</a>
+
 - Example figure from the report: ![](/resources/figure2.png)
+
 
 **References**  
 Bechara, A., Damasio, A. R., Damasio, H., & Anderson, S. W. (1994). Insensitivity to future consequences following damage to human prefrontal cortex.* *Cognition, 50*(1–3), 7–15.  
