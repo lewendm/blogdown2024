@@ -3,6 +3,7 @@ title: "Emotion-Based Decision Feedback (Iowa Gambling Task)"
 type: project
 summary: "Feedback on use of affective signals in IGT; data collected with PsyToolkit."
 ---
+
 Below is an **R script** that generates feedback reports based on how well students perform on an affective decision-making task under uncertainty — the **Iowa Gambling Task (IGT)**.  
 The task is a classic measure used to test the **Somatic Marker Hypothesis** — the idea that emotional cues help guide our choices when outcomes are uncertain.
 
