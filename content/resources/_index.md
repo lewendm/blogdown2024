@@ -1,5 +1,4 @@
 ---
-author: Lewend Mayiwar
 title: Teaching resources
 description: Some resource and material that I use in teaching, including R scripts that I've created to generate decision-making feedback reports for students.
 layout: list-sidebar
