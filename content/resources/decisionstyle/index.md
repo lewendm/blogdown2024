@@ -10,9 +10,12 @@ Students complete the Rational–Experiential Inventory (REI) (Pacini & Epstein,
 
 The feedback report summarizes students’ CRT responses, produces a radar (spider) chart of the four REI dimensions, and classifies individuals into quadrants that illustrate how intuitive and analytical styles interact.
 
+- [⬇️ Download R script (feedback-report.R)](/resources/decisionmakingstyle_feedback.r)
+
 - 📄 [Example report (PDF)](/resources/decisionmakingstyle_example.pdf)
+
 - 🧪 [Qualtrics survey (.qsf)](/resources/decisionmakingstyle_survey.qsf)
-- ‍💻 <a href="/resources/feedback-report.R" download>Download R script</a>
+
 - Example figure from the report: ![](/resources/figure1.png)
 
 
