@@ -4,20 +4,27 @@ subtitle: "Rational–Experiential Inventory + Cognitive Reflection Test"
 type: project
 summary: Feedback on decision-making style (intuition vs deliberation).
 ---
-Below is an R script that generates individualized feedback reports based on students’ responses to two well-established measures of reasoning and decision-making style. You’ll also find the Qualtrics file used in my course, which the R code is built around; it can be imported directly into Qualtrics.
 
-Students complete the Rational–Experiential Inventory (REI) (Pacini & Epstein, 1999), which measures general preferences for intuitive and analytical thinking, and the Cognitive Reflection Test (CRT) (Frederick, 2005), which captures the tendency to override an initial intuitive response through deliberation.
+This tool generates individualized feedback reports based on students’ responses to two well-established measures of reasoning and decision-making style.  
+It can be used in behavioral decision-making or psychology courses to help students reflect on how they think and reason.
 
-The feedback report summarizes students’ CRT responses, produces a radar (spider) chart of the four REI dimensions, and classifies individuals into quadrants that illustrate how intuitive and analytical styles interact.
+Students complete the **Rational–Experiential Inventory (REI)** (Pacini & Epstein, 1999), which measures general preferences for intuitive and analytical thinking, and the **Cognitive Reflection Test (CRT)** (Frederick, 2005), which captures the tendency to override initial intuitive responses through deliberation.
 
-- ⬇️ <a href="/resources/decisionmakingstyle_feedback.r" download>Download R script</a> 
+The report summarizes CRT responses, produces a **radar (spider) chart** of the four REI dimensions, and classifies individuals into **quadrants** that illustrate how intuitive and analytical styles interact in reasoning.
 
-- 📄 [Example report (PDF)](/resources/decisionmakingstyle_example.pdf)
+---
 
-- 🧪 [Qualtrics survey (.qsf)](/resources/decisionmakingstyle_survey.qsf)
+### Resources (hosted on OSF)
 
-- Example figure from the report: ![](/resources/figure1.png)
+- 💻 **R script:** [decisionmakingstyle_feedback.R](https://osf.io/w5ynq)
+- 📄 **Example feedback report (PDF):** [decisionmakingstyle_example.pdf](https://osf.io/uexzg)
+- 🧪 **Qualtrics survey (.qsf):** [decisionmakingstyle_survey.qsf](https://osf.io/q289g)
 
+Example figure from the report:
+
+![](/resources/figure1.png)
+
+---
 
 **References**  
 
