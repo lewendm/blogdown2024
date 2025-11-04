@@ -143,14 +143,14 @@ enableEmoji = true
     #url = "/collection/"
     #weight = 5
   [[menu.header]]
+    name = "Resources"          
+    url = "/resources/"          
+    weight = 5
+  [[menu.header]]
     name = "CV"
     title = "CV"
     url = "/cv/Mayiwar_CV.pdf/"
-    weight = 5
-  [[menu.header]]
-    name = "Resources"          
-    url = "/resources/"          
-    weight = 6                   
+    weight = 6
 
   #[[menu.header]]
    # name = "Blog"
