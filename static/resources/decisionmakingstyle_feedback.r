@@ -1,14 +1,37 @@
+# ------------------------------------------------------------------------------
+# Feedback report generator (CRT + REI)
+# Author: Lewend Mayiwar
+# Year: 2025
+#
+# Use, tweak, and share this as you like.
+# A quick credit is appreciated :)
+#
+# CC BY 4.0 – https://creativecommons.org/licenses/by/4.0/
+# ------------------------------------------------------------------------------
+
 # ======================================================
-# .sav -> per-student HTML + PDF feedback (CRT & REI)
-# Elegant PDFs with page numbers & headers/footers
-# + Appendix with full item wording (CRT + REI 40 items)
+# Generates individual feedback reports (HTML + PDF)
+# based on students' responses to:
+#   - CRT (Cognitive Reflection Test)
+#   - REI (Rational–Experiential Inventory)
+#
+# The dataset (.sav) is expected to include:
+#   * Variables starting with "CRT"  → Cognitive Reflection Test items
+#       - Measures tendency to override intuitive (“System 1”) responses
+#         with deliberate reasoning (“System 2”).
+#   * Variables starting with "RS"   → Rational scale of the REI
+#       - Measures analytic, effortful, rule-based thinking.
+#       - Subscales: Rational Ability (RA) and Rational Engagement (RE).
+#   * Variables starting with "ES"   → Experiential (Intuitive) scale of the REI
+#       - Measures intuitive, affect-based, holistic thinking.
+#       - Subscales: Experiential Ability (EA) and Experiential Engagement (EE).
 # ======================================================
 
 # -------- Settings --------
-sav_path     <- "data/student_responses3.sav"      # <- your .sav
+sav_path     <- "data/student_responses.sav"      # <- path to dataset (sav is SPSS file)
 out_dir      <- "exports"
 assets_dir   <- "assets"
-quadrant_img <- file.path(assets_dir, "analytic_intuitive_quadrant.jpg")  # JPG/PNG is fine
+quadrant_img <- file.path(assets_dir, "analytic_intuitive_quadrant.jpg")
 course_title <- "Decision-making Processes in Organizations"
 report_date  <- format(Sys.Date(), "%B %d, %Y")
 
@@ -20,83 +43,66 @@ suppressPackageStartupMessages({
   library(scales)
   library(glue)
   library(stringr)
-  library(htmltools)   # for htmlEscape
-  library(pagedown)    # for chrome_print PDFs
-  library(psych)       # for alpha (optional, if you want to run reliability checks later)
+  library(htmltools)
+  library(pagedown)
+  library(psych)
 })
 
 dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
 
-# Make the quadrant image available next to each HTML/PDF
+# Copy quadrant image to export directory if it exists
 if (file.exists(quadrant_img)) {
   file.copy(quadrant_img, file.path(out_dir, basename(quadrant_img)), overwrite = TRUE)
 }
 
-# -------- Load data (SAV only) --------
+# -------- Load data --------
 stopifnot(file.exists(sav_path))
 dat <- haven::read_sav(sav_path)
 names(dat) <- make.names(names(dat))
 
-# Coerce RS_/ES_ to numeric; leave crt_* as character (free text)
+# Convert RS_/ES_ variables to numeric
 dat <- dat %>%
   mutate(
     across(starts_with("RS_"), ~as.numeric(as.character(.))),
     across(starts_with("ES_"), ~as.numeric(as.character(.)))
   )
 
-# Ensure keys exist and types are sane
+# Ensure identifiers exist
 if (!"student_id" %in% names(dat)) dat <- dat %>% mutate(student_id = row_number())
-dat <- dat %>% mutate(student_id = as.numeric(student_id))
+dat$student_id <- as.numeric(dat$student_id)
 if (!"name" %in% names(dat)) dat$name <- NA_character_
 dat$name <- as.character(dat$name)
 
-# -------- FIX ES MISLABELING: rename ES_* by current dataset order --------
-# Find all ES_* columns in their current left-to-right order and relabel to ES_1..ES_k
-es_pos  <- which(startsWith(names(dat), "ES_"))
-old_es  <- names(dat)[es_pos]
-new_es  <- paste0("ES_", seq_along(es_pos))  # ES_1..ES_k
-# Create old->new map (used later to translate reverse-coded list)
-es_map  <- setNames(new_es, old_es)
-# Apply renaming
-names(dat)[es_pos] <- new_es
-
 # ------------------------------------------------------
-# Map YOUR item order to REI-40 official subscales
-# (Indices refer to YOUR order after the ES relabeling)
+# REI subscale mapping (now that ES_ naming is fixed)
 # ------------------------------------------------------
-# RS (your order)
 RS_idx_RA <- c(2,4,8,9,12,13,14,16,17,19)   # Rational Ability
 RS_idx_RE <- c(1,3,5,6,7,10,11,15,18,20)    # Rational Engagement
-# ES (your order)
 ES_idx_EA <- c(2,3,4,7,8,9,15,17,19,20)     # Experiential Ability
 ES_idx_EE <- c(1,5,6,10,11,12,13,14,16,18)  # Experiential Engagement
 
-# -------- Reverse-coded items (SPSS-equivalent) --------
-# RS list (RS names were not relabeled)
+# -------- Reverse-coded items --------
 RS_rev <- c("RS_1", "RS_2", "RS_4", "RS_5", "RS_7",
             "RS_8", "RS_9", "RS_11", "RS_12", "RS_18")
 
-# ES reverse list from SPSS (old names; may include gaps like ES_21)
-# Translate to the new sequential ES_1..ES_k using old->new map
-ES_rev_old <- c("ES_2", "ES_10", "ES_11", "ES_13", "ES_14",
-                "ES_15", "ES_17", "ES_18", "ES_21")
-ES_rev <- unname(es_map[ES_rev_old])
-ES_rev <- ES_rev[!is.na(ES_rev)]  # keep only those that existed in your data
+ES_rev <- c("ES_2", "ES_10", "ES_11", "ES_13", "ES_14",
+            "ES_15", "ES_17", "ES_18", "ES_21")
+ES_rev <- intersect(ES_rev, names(dat))  # keep only existing ones
 
-# Function to reverse Likert 1–5
+# Reverse Likert 1–5
 rev5 <- function(x) ifelse(is.na(x), NA, 6 - x)
 
-# --- Save pre-reversal copy for audit/appendix (labels included) ---
+# Save pre-reversal copy
 dat_pre_rev <- dat
 
-# Apply reverse scoring
+# Apply reversal
 dat <- dat %>%
   mutate(
     across(all_of(intersect(RS_rev, names(.))), rev5),
     across(all_of(intersect(ES_rev, names(.))), rev5)
   )
 
-# -------- Build REI item key table (labels from your Qualtrics file) --------
+# -------- Build REI key info --------
 var_label <- function(x) {
   lb <- attr(x, "label")
   if (is.null(lb)) "" else as.character(lb)
@@ -105,110 +111,33 @@ var_label <- function(x) {
 rs_items <- names(dat)[startsWith(names(dat), "RS_")]
 es_items <- names(dat)[startsWith(names(dat), "ES_")]
 
-# Which subscale each item belongs to (by YOUR order)
 subscale_of <- function(item) {
   if (startsWith(item, "RS_")) {
     idx <- as.integer(sub("RS_", "", item))
     if (idx %in% RS_idx_RA) return("Rational ability")
     if (idx %in% RS_idx_RE) return("Rational engagement")
-    return(NA_character_)
   } else if (startsWith(item, "ES_")) {
     idx <- as.integer(sub("ES_", "", item))
     if (idx %in% ES_idx_EA) return("Experiential ability")
     if (idx %in% ES_idx_EE) return("Experiential engagement")
-    return(NA_character_)
   }
-  NA_character_
-}
-
-main_scale_of <- function(item) {
-  if (startsWith(item, "RS_")) "Rational" else if (startsWith(item, "ES_")) "Experiential" else NA_character_
+  return(NA_character_)
 }
 
 rev_set <- unique(c(intersect(RS_rev, names(dat)), intersect(ES_rev, names(dat))))
 
-# -------- Hard-coded REI item wording (from your Qualtrics file) --------
-rei_wording <- tribble(
-  ~Item, ~Wording,
-  "RS_1",  "I try to avoid situations that require thinking in depth about something",
-  "RS_2",  "I'm not that good at figuring out complicated problems",
-  "RS_3",  "I enjoy intellectual challenges",
-  "RS_4",  "I am not very good at solving problems that require careful logical analysis",
-  "RS_5",  "I don't like to have to do a lot of thinking",
-  "RS_6",  "I enjoy solving problems that require hard thinking",
-  "RS_7",  "Thinking is not my idea of an enjoyable activity",
-  "RS_8",  "I am not a very analytical thinker",
-  "RS_9",  "Reasoning things out carefully is not one of my strong points",
-  "RS_10", "I prefer complex problems to simple problems",
-  "RS_11", "Thinking hard and for a long time about something gives me little satisfaction",
-  "RS_12", "I don't reason well under pressure",
-  "RS_13", "I am much better at figuring things out logically than most people",
-  "RS_14", "I have a logical mind",
-  "RS_15", "I enjoy thinking in abstract terms",
-  "RS_16", "I have no problem thinking things through carefully",
-  "RS_17", "Using logic usually works well for me in figuring out problems in my life",
-  "RS_18", "Knowing the answer without having to understand the reasoning behind it is good enough for me",
-  "RS_19", "I usually have clear, explainable reasons for my decisions",
-  "RS_20", "Learning new ways to think would be very appealing to me",
-  "ES_1",  "I like to rely on my intuitive impressions",
-  "ES_2",  "I don't have a very good sense of intuition",
-  "ES_4",  "Using my gut feelings usually works well for me in figuring out problems in my life",
-  "ES_5",  "I believe in trusting my hunches",
-  "ES_6",  "Intuition can be a very useful way to solve problems",
-  "ES_7",  "I often go by my instincts when deciding on a course of action",
-  "ES_8",  "I trust my initial feelings about people",
-  "ES_9",  "When it comes to trusting people, I can usually rely on my gut feelings",
-  "ES_10", "If I were to rely on my gut feelings, I would often make mistakes",
-  "ES_11", "I don't like situations in which I have to rely on intuition",
-  "ES_12", "I think there are times when one should rely on one's intuition",
-  "ES_13", "I think it is foolish to make important decisions based on feelings",
-  "ES_14", "I don't think it is a good idea to rely on one's intuition for important decisions",
-  "ES_15", "I generally don't depend on my feelings to help me make decisions",
-  "ES_16", "I hardly ever go wrong when I listen to my deepest gut feelings to find an answer",
-  "ES_17", "I would not want to depend on anyone who described himself or herself as intuitive",
-  "ES_18", "My snap judgments are probably not as good as most people's",
-  "ES_19", "I tend to use my heart as a guide for my actions",
-  "ES_20", "I can usually feel when a person is right or wrong, even if I can't explain how I know",
-  "ES_21", "I suspect my hunches are inaccurate as often as they are accurate"
-)
-
-# Keep only items that exist in your dataset (after ES renaming)
-rei_wording <- rei_wording %>% filter(Item %in% names(dat))
-
-# Add scale, subscale, and reverse flag
-rei_items_tbl <- rei_wording %>%
-  mutate(
-    `Main scale` = ifelse(startsWith(Item, "RS_"), "Rational", "Experiential"),
-    Subscale = vapply(Item, subscale_of, character(1)),
-    `Reverse scored?` = Item %in% rev_set
-  )
-
-# -------- Keying audit (console only; shows mean before/after reversal) --------
-audit_tbl <- tibble::tibble(
-  item        = c(rs_items, es_items),
-  scale       = ifelse(startsWith(c(rs_items, es_items), "RS_"), "RS", "ES"),
-  label       = vapply(c(rs_items, es_items), function(v) var_label(dat_pre_rev[[v]]), character(1)),
-  reversed    = c(rs_items, es_items) %in% rev_set,
-  mean_before = vapply(c(rs_items, es_items), function(v) mean(suppressWarnings(as.numeric(dat_pre_rev[[v]])), na.rm = TRUE), numeric(1)),
-  mean_after  = vapply(c(rs_items, es_items), function(v) mean(suppressWarnings(as.numeric(dat[[v]])), na.rm = TRUE), numeric(1))
-) %>%
-  arrange(scale, item)
-
-cat("\n=== REI Keying Audit (means before/after reversal) ===\n")
-print(audit_tbl, n = nrow(audit_tbl))  # console only
-
 # =========================
-# CRT auto-scoring (free text)
-# Items: crt_1 (Bat & Ball), crt_2 (Widgets), crt_3 (Lily pads)
+# CRT auto-scoring
 # =========================
+
 library(stringr)
 
-# Normalizers
 norm_txt <- function(x) {
   x <- tolower(trimws(as.character(x)))
   x <- gsub("\\s+", " ", x, perl = TRUE)
   x
 }
+
 dotify <- function(x) gsub(",", ".", x, fixed = TRUE)
 extract_num <- function(x) {
   x <- dotify(x)
@@ -219,50 +148,46 @@ has_any <- function(x, patterns) {
   sapply(patterns, function(p) grepl(p, x, perl = TRUE)) |> apply(1, any)
 }
 
-# CRT-1 Bat & Ball (correct: 5 cents / 0.05)
+# --- CRT-1 Bat & Ball (correct: 0.05) ---
 score_crt1 <- function(ans) {
   a0 <- as.character(ans); a <- norm_txt(a0)
-  a <- gsub("\\bfive\\b", "5", a); a <- gsub("\\bfem\\b", "5", a)  # EN/NO
-  unit_cent <- c("cent\\b","cents\\b","\\bc\\b","¢","ct\\b","cts\\b","p\\b","pence\\b",
-                 "penny\\b","pennies\\b","øre\\b","oere\\b")
-  wrote_5       <- grepl("\\b5\\b", a)
-  wrote_5_unit  <- wrote_5 & has_any(a, unit_cent)
-  wrote_just5   <- grepl("^\\s*5\\s*$", a)
+  a <- gsub("\\bfive\\b", "5", a)
+  unit_cent <- c("cent\\b","cents\\b","\\bc\\b","¢","øre\\b","oere\\b")
   num <- extract_num(a)
-  wrote_005     <- !is.na(num) & abs(num - 0.05) < 1e-8
+  wrote_005 <- !is.na(num) & abs(num - 0.05) < 1e-8
+  wrote_5_unit <- grepl("\\b5\\b", a) & has_any(a, unit_cent)
+  wrote_just5 <- grepl("^\\s*5\\s*$", a)
   out <- ifelse(wrote_5_unit | wrote_just5 | wrote_005, 1L,
                 ifelse(is.na(a0) | a == "", NA_integer_, 0L))
   as.integer(out)
 }
 
-# CRT-2 Widgets (correct: 5 minutes)
+# --- CRT-2 Widgets (correct: 5 minutes) ---
 score_crt2 <- function(ans) {
   a0 <- as.character(ans); a <- norm_txt(a0)
-  a <- gsub("\\bfive\\b", "5", a); a <- gsub("\\bfem\\b", "5", a)
-  unit_min <- c("minute\\b","minutes\\b","\\bmin\\b","mins\\b","minutter\\b","minutt\\b")
-  looks_like_five_min <- grepl("^\\s*0?5\\s*[:]\\s*0{2}\\s*$", a) |
-    grepl("^\\s*0?0\\s*[:]\\s*0?5\\s*[:]\\s*0{2}\\s*$", a)
+  a <- gsub("\\bfive\\b", "5", a)
+  unit_min <- c("minute\\b","minutes\\b","\\bmin\\b","mins\\b")
   num <- extract_num(a)
   wrote_5_with_unit <- !is.na(num) & abs(num - 5) < 1e-8 & has_any(a, unit_min)
-  wrote_just5       <- grepl("^\\s*5\\s*$", a)
-  out <- ifelse(wrote_5_with_unit | wrote_just5 | looks_like_five_min, 1L,
+  wrote_just5 <- grepl("^\\s*5\\s*$", a)
+  out <- ifelse(wrote_5_with_unit | wrote_just5, 1L,
                 ifelse(is.na(a0) | a == "", NA_integer_, 0L))
   as.integer(out)
 }
 
-# CRT-3 Lily pads (correct: 47 days)
+# --- CRT-3 Lily pads (correct: 47 days) ---
 score_crt3 <- function(ans) {
   a0 <- as.character(ans); a <- norm_txt(a0)
-  has_47   <- grepl("\\b47\\b", a)
+  has_47 <- grepl("\\b47\\b", a)
   unit_day <- c("day\\b","days\\b","dag\\b","dager\\b")
   wrote_47_unit <- has_47 & has_any(a, unit_day)
-  wrote_just47  <- grepl("^\\s*47(\\b|\\D)", a)  # allow "47", "47th", "47."
+  wrote_just47 <- grepl("^\\s*47(\\b|\\D)", a)
   out <- ifelse(wrote_47_unit | wrote_just47, 1L,
                 ifelse(is.na(a0) | a == "", NA_integer_, 0L))
   as.integer(out)
 }
 
-# Ensure crt_* vars exist and are character
+# Ensure CRT vars exist and are character
 for (v in c("crt_1","crt_2","crt_3")) {
   if (!v %in% names(dat)) dat[[v]] <- NA_character_
   dat[[v]] <- as.character(dat[[v]])
@@ -277,7 +202,7 @@ dat <- dat %>%
     crt_total   = rowSums(across(c(crt_1_score, crt_2_score, crt_3_score)), na.rm = TRUE)
   )
 
-# -------- Compute REI scores --------
+# -------- Compute REI composite scores --------
 dat <- dat %>%
   mutate(
     rational_ability         = rowMeans(across(all_of(paste0("RS_", RS_idx_RA))), na.rm = TRUE),
@@ -287,6 +212,7 @@ dat <- dat %>%
     rational   = rowMeans(cbind(rational_ability, rational_engagement), na.rm = TRUE),
     intuitive  = rowMeans(cbind(experiential_ability, experiential_engagement), na.rm = TRUE)
   )
+
 
 # -------- Benchmarks --------
 rei_bench <- tibble::tribble(

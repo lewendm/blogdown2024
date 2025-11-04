@@ -1,3 +1,31 @@
+# ------------------------------------------------------------------------------
+# Feedback report generator (Iowa Gambling Task)
+# Author: Lewend Mayiwar
+# Year: 2025
+#
+# Use, tweak, and share this as you like.
+# A quick credit is appreciated :)
+#
+# CC BY 4.0 – https://creativecommons.org/licenses/by/4.0/
+# ------------------------------------------------------------------------------
+
+# NOTE ABOUT DATA FROM PSYTOOLKIT
+# -------------------------------
+# PsyToolkit saves IGT data as ONE TEXT FILE PER PARTICIPANT.
+# Each of those .txt files contains all 100 trials for that person
+# (choice/deck, outcome, RT, etc.).
+#
+# This script expects one combined/clean dataset, not separate per-person files.
+# So before running this script you should:
+#   1. download all participant .txt files from PsyToolkit,
+#   2. combine/stack them into a single dataset (one row per trial),
+#   3. add an ID variable (e.g. subject_id) so we know which rows belong together,
+#   4. make sure columns like deck, amountWon, feeToPay, and RT are present,
+#   5. save the cleaned/combined data.
+#
+# You can do step 2–4 in R or in Python, or in Excel if the sample is small (which is what I did).
+# This script starts AFTER that step.
+
 # ================================
 # IGT STUDENT FEEDBACK REPORTS 
 # ================================
@@ -53,6 +81,14 @@ wrapped_paragraph <- function(text, width = 104, size = 12, face = "plain", lh =
 }
 
 # ---------- Load & prep data ----------
+
+# PREPROCESSING OUTLINE (what we assume has been done):
+# - all PsyToolkit .txt files have been merged into one file
+# - each row is one trial (so 100 rows per participant for the classic IGT)
+# - there is a column called "subject_id" (or similar) that identifies the person
+# - columns for deck/choice, RT, amountWon, feeToPay are present
+# - the merged file has been saved as an Excel file below
+
 igt_raw <- read_excel("IGT_combined_final_studentdata.xlsx")
 
 igt <- igt_raw %>%
