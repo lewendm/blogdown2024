@@ -28,6 +28,7 @@ enableEmoji = true
     style = "github"
     
 [params]
+  avatarSize = "120px"
   orgName = "Mayiwar. L"
   orgLocal = ""
   description = "Post-Doctoral Fellow in Behavioral Economics & Associate Professor in Organizational Behavior."
