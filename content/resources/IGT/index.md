@@ -20,6 +20,6 @@ To use the feedback generator script below, you’ll first need to merge all the
 
 
 **References**  
-Bechara, A., Damasio, A. R., Damasio, H., & Anderson, S. W. (1994). Insensitivity to future consequences following damage to human prefrontal cortex.* *Cognition, 50*(1–3), 7–15.  
+Bechara, A., Damasio, A. R., Damasio, H., & Anderson, S. W. (1994). Insensitivity to future consequences following damage to human prefrontal cortex.* *Cognition, 50*(1–3), 7–15.  https://doi.org/10.1016/0010-0277(94)90018-3
 
 Stoet, G. (2017). PsyToolkit: A novel web-based method for running online questionnaires and reaction-time experiments. *Teaching of Psychology, 44*(1), 24-31. https://doi.org/10.1177/0098628316677643 
