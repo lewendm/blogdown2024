@@ -15,5 +15,5 @@ intro: |
 
   I am a big fan of open science and reproducibility. I started the first [ReproducibiliTea journal club](https://reproducibilitea.org/) in Norway and I am currently a steering committee member at the the [Norwegian Reproducibility Network](https://norrn.no/).
 
-  Feel free to get in touch with me on [Twitter/X](https://twitter.com/LewendM) or via email at lewend.m@hotmail.com!
+  Feel free to get in touch with me on [Twitter/X](https://twitter.com/LewendM), [LinkedIn](https://linkedin.com/LewendM), or via email at lewend.mayiwar@oslomet.no
 ---
