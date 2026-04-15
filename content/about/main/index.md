@@ -1,6 +1,6 @@
 ---
 ## Configure page content in wide column
-title: "Current work"
+title: "Hi! I'm Lewend."
 number_featured: 0
 use_featured: false
 number_categories: 0
