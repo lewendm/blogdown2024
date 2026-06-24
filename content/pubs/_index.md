@@ -7,6 +7,7 @@ show_author_byline: true
 show_button_links: false
 show_post_date: false
 show_post_thumbnail: true
+hide_post_summary: true
 type: project
 
 cascade:
