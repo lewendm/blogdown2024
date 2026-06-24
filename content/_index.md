@@ -11,6 +11,8 @@ show_action_link: true
 action_link: /about
 action_label: "Read More &rarr;"
 action_type: text # text, button
+secondary_action_link: /funded-projects/
+secondary_action_label: "Ongoing funded projects &rarr;"
 type: home
 ---
 
