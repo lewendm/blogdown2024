@@ -9,6 +9,15 @@ show_action_link: true
 action_link: /about
 action_label: "Read More &rarr;"
 action_type: text # text, button
+home_feature_items:
+  - title: "Featured publications"
+    text: "Recent journal articles and associated materials."
+    url: /pubs/
+    label: "View publications"
+  - title: "Ongoing funded projects"
+    text: "Current funded research projects and collaborators."
+    url: /funded-projects/
+    label: "View projects"
 type: home
 ---
 
