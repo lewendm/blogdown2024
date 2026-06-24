@@ -1,1 +1,12 @@
 // Override this file to add your own SCSS styling.
+
+.home .page-content img {
+  width: min(80%, 24rem);
+  height: auto;
+}
+
+@media screen and (min-width: 60em) {
+  .home .page-content img {
+    width: min(100%, 28rem);
+  }
+}

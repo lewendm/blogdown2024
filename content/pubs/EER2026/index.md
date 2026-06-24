@@ -30,3 +30,5 @@ Voting is a cornerstone of democratic decision-making, but it may also diffuse i
 ## Keywords
 
 Voting; Diffusion of responsibility; Distribution; Equality; Envy; Experiment
+
+![](featured.png)
