@@ -10,7 +10,7 @@ My research centers on judgment and decision-making, with a focus on how emotion
 <div class="research-menu">
   <section class="research-menu-item">
     <h2>Academic Publications</h2>
-    <p>Journal articles, abstracts, links to official publication pages, PDFs where available, and project materials.</p>
+    <p>Publications, PDFs, and associated materials.</p>
     <p><a href="/pubs/">View publications &rarr;</a></p>
   </section>
 

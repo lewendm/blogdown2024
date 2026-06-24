@@ -2,14 +2,17 @@
 
 .home .page-content img {
   width: 80%;
-  max-width: 24rem;
+  max-width: 21rem;
   height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 @media screen and (min-width: 60em) {
   .home .page-content img {
-    width: 100%;
-    max-width: 28rem;
+    width: 90%;
+    max-width: 25rem;
   }
 }
 
@@ -36,4 +39,38 @@
   .research-menu {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+}
+
+.funded-projects-list {
+  display: grid;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.funded-project-card {
+  border-top: 1px solid currentColor;
+  display: block;
+  padding: 1rem 0;
+  text-decoration: none;
+}
+
+.funded-project-card:hover .funded-project-card-title {
+  text-decoration: underline;
+}
+
+.funded-project-card-kicker,
+.funded-project-card-meta,
+.funded-project-card-title {
+  display: block;
+}
+
+.funded-project-card-kicker,
+.funded-project-card-meta {
+  font-size: 0.9rem;
+}
+
+.funded-project-card-title {
+  font-size: 1.35rem;
+  line-height: 1.2;
+  margin: 0.35rem 0;
 }

@@ -1,12 +1,11 @@
 ---
-title: "Ongoing Funded Projects"
-subtitle: "Piloting emotion-informed interventions for strengthening digital democratic resilience"
+title: "Piloting emotion-informed interventions for strengthening digital democratic resilience"
 description: "A funded project examining whether emotion-informed interventions can strengthen resilience to manipulative political content in digital media."
 layout: standard
 show_title_as_headline: true
 ---
 
-## Piloting emotion-informed interventions for strengthening digital democratic resilience
+## Project Details
 
 **Project period**  
 Start: 01/08/2026  
