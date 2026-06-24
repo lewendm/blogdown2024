@@ -9,9 +9,6 @@
         {{ if .Params.show_social_links }}{{ partial "shared/social-links.html" . }}{{ end }}
         {{ with .Params.description }}<p class="f4 mt4 lh-copy">{{ . | markdownify }}</p>{{ end }}
         {{ if .Params.show_action_link }}<a class="mt4 action {{ .Params.action_type }}" href="{{ .Params.action_link | relURL }}">{{ .Params.action_label | safeHTML }}</a>{{ end }}
-        {{ if and .Params.secondary_action_link .Params.secondary_action_label }}
-          <p class="mt3 mb0"><a class="home-secondary-action" href="{{ .Params.secondary_action_link | relURL }}">{{ .Params.secondary_action_label | safeHTML }}</a></p>
-        {{ end }}
       </div>
       <div class="tr w-50-l {{ if .Params.image_left }}ml4{{ else }}mr4{{ end }}">
       {{ with .Params.images }}

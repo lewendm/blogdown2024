@@ -12,6 +12,8 @@ intro: |
 
   My research covers different themes, but broadly, it centers on judgment and decision-making, focusing on how emotions and various cognitive and social psychological factors shape people’s decisions, particularly those made under risk and uncertainty.
 
+  You can find my [publications and ongoing funded projects](/research/) on the research page.
+
 show_outro: false
 outro:
 ---

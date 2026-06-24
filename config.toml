@@ -124,9 +124,9 @@ enableEmoji = true
     url = "/about/"
     weight = 1
   [[menu.header]]
-    name = "Pubs"
-    title = "Pubs"
-    url = "/pubs/"
+    name = "Research"
+    title = "Research"
+    url = "/research/"
     weight = 2
   [[menu.header]]
     name = "Media"
