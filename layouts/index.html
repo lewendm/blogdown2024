@@ -26,7 +26,7 @@
           {{ range .Params.home_feature_items }}
             <a class="home-feature-item" href="{{ .url | relURL }}">
               <span class="home-feature-title">{{ .title }}</span>
-              <span class="home-feature-text">{{ .text }}</span>
+              {{ with .text }}<span class="home-feature-text">{{ . }}</span>{{ end }}
               <span class="home-feature-label">{{ .label }} &rarr;</span>
             </a>
           {{ end }}
