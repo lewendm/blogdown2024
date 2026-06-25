@@ -9,10 +9,18 @@ tags:
   - hugo-site
 layout: single
 links:
+  - icon: osf
+    icon_pack: ai
+    name: OSF
+    url: https://osf.io/nat72/?view_only=df38fe1b074547f0a48351c7a78a49cd
   - icon: doi
     icon_pack: ai
     name: Publication
     url: https://doi.org/10.3758/s13428-026-02953-x
+  - icon: file-pdf
+    icon_pack: fa
+    name: PDF
+    url: pdf/BRM2026.pdf
 ---
 
 ## Citation
