@@ -1,8 +1,8 @@
 // Override this file to add your own SCSS styling.
 
 .home .page-content img {
-  width: 80%;
-  max-width: 21rem;
+  width: 68%;
+  max-width: 17rem;
   height: auto;
   aspect-ratio: 1;
   object-fit: cover;
@@ -55,8 +55,8 @@
 
 @media screen and (min-width: 60em) {
   .home .page-content img {
-    width: 90%;
-    max-width: 25rem;
+    width: 72%;
+    max-width: 20rem;
   }
 
   .home-side-content {
