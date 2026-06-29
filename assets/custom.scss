@@ -146,3 +146,30 @@
 .pub-reference-list a {
   text-decoration: underline;
 }
+
+.pubs-list-sidebar {
+  .page-main {
+    grid-column: 3 / 7;
+  }
+
+  .page-sidebar {
+    grid-column: 1 / 3;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pubs-list-sidebar {
+    .page-main,
+    .page-sidebar {
+      grid-column: 1 / 7;
+    }
+
+    .page-main {
+      order: 3;
+    }
+
+    .page-sidebar {
+      order: 2;
+    }
+  }
+}

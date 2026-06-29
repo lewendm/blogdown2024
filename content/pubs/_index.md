@@ -18,7 +18,6 @@ cascade:
 
 sidebar:
   type: project
-  author: Lewend Mayiwar
   description: "Broadly, my research examines the role of emotions and other (socio)-cognitive factors in judgment and decision-making under risk and uncertainty. Here you'll find the abstracts, links to PDFs, the official journal article pages, and corresponding OSF pages containing data, code, and materials."
   show_sidebar_adunit: false
   text_link_label: "Google Scholar"
