@@ -9,6 +9,11 @@
   border-radius: 50%;
 }
 
+.about-sidebar img.br-100 {
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
 .home-side-content {
   margin-bottom: 2rem;
   text-align: left;
