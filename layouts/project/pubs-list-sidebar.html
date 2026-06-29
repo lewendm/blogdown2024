@@ -1,0 +1,23 @@
+{{ define "main" }}
+<main class="page-main pa4 {{ .Kind }}" role="main">
+  <section class="blog-content mw7 center">
+    {{ $pages := (where .RegularPagesRecursive "Type" "project").ByDate.Reverse }}
+    <ol class="pub-reference-list">
+    {{ range $pages }}
+      {{ $doi := "" }}
+      {{ range .Params.links }}
+        {{ if eq .name "Publication" }}
+          {{ $doi = .url }}
+        {{ end }}
+      {{ end }}
+      <li>
+        <span>{{ with .Params.author }}{{ . | replaceRE "\\.?$" "." }} {{ end }}({{ .Date.Format "2006" }}). <a href="{{ .RelPermalink }}">{{ .Title | plainify | replaceRE "\\s+" " " }}</a>. {{ with .Params.subtitle }}<em>{{ . }}</em>.{{ end }} {{ with $doi }}<a href="{{ . }}">{{ . }}</a>{{ end }}</span>
+      </li>
+    {{ end }}
+    </ol>
+  </section>
+</main>
+<aside class="page-sidebar" role="complementary">
+  {{ partial "shared/sidebar-scaffold.html" . }}
+</aside>
+{{ end }}
